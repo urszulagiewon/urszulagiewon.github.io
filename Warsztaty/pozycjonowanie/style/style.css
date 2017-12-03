@@ -1,0 +1,12 @@
+body {
+    background-color: bisque;
+    margin: 75px;
+}
+#kontener {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    bottom: 150px;
+    background-color: firebrick;
+}
