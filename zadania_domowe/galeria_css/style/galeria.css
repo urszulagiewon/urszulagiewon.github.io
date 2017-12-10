@@ -8,6 +8,15 @@ body {
 }
 
 
+.tlo {
+    height:23em;
+    width:23em;
+    display:inline-block;
+    background-color:#ff6700;
+    margin:2em;
+    
+}
+
 .kontener {
     position: relative;
     height:100%;
@@ -24,9 +33,6 @@ body {
 }
 
 .koszyk::before {
-    display:block;
-    vertical-align: middle;
-    color:white;
     position: relative;
     
 }
@@ -37,13 +43,6 @@ body {
     transform:translateY(300%);
 }
 
-.tlo {
-    height:23em;
-    width:23em;
-    display:inline-block;
-    background-color:#ff6700;
-    
-}
 
 #prod1 {
     background-image:url(product-1.jpg);
