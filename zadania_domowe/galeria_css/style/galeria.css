@@ -1,0 +1,29 @@
+body {
+    background-color:#98fb98;
+    margin: 0;
+    text-align:center;
+    font-size:15px;
+}
+
+
+div#prod1 {
+    background-image:url(product-1.jpg)
+}
+div#prod2 {
+    background-image:url(product-2.jpg)
+}
+div#prod3 {
+    background-image:url(product-3.jpg)
+}
+div#prod4 {
+    background-image:url(product-4.jpg)
+}
+
+.kontener {
+    width:43.3em;
+    height:23.3em;
+    display:inline-block;
+    background-color:orange;
+    margin:2em;
+    top:25%;
+}
