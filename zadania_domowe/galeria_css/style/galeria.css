@@ -1,10 +1,12 @@
 body {
     background-color:#98fb98;
-    margin: 0;
+    margin:4em;
     text-align:center;
     font-size:15px;
     font-family:lato, sans-serif;
+    padding:5em;
 }
+
 
 .kontener {
     position: relative;
@@ -15,6 +17,10 @@ body {
     opacity:0;
     
 }
+.kontener:hover {
+    position:relative;
+    opacity:0.7;
+}
 
 .koszyk::before {
     display:block;
@@ -23,37 +29,56 @@ body {
     position: relative;
     
 }
+
+.inside {
+    position:relative;
+    margin:auto 0;
+    transform:translateY(300%);
+}
+
 .tlo {
-    height:20em;
-    width:20em;
+    height:23em;
+    width:23em;
     display:inline-block;
     background-color:#ff6700;
     
 }
 
 #prod1 {
-    background-image: url(product-1.jpg);
-    background-size: cover;
+    background-image:url(product-1.jpg);
+    background-size:cover;
+    background-position:center;
 }
 
 #prod2 {
-    background-image: url(product-2.jpg);
+    background-image:url(product-2.jpg);
     background-size: cover;
+    background-position:center;
 }
 
 #prod3 {
-    background-image: url(product-3.jpg);
-    background-size: cover;
+    background-image:url(product-3.jpg);
+    background-size:cover;
+    background-position:center;
 
 }
 
 #prod4 {
-    background-image: url(product-4.jpg);
-    background-size: cover;
+    background-image:url(product-4.jpg);
+    background-size:cover;
+    background-position:center;
 
 }
 
-.kontener:hover {
-    opacity:0.7;
-    content: "Dodaj do koszyka";
-}
+
+@media only screen and (max-width: 922px) {
+    
+    .kontener, .koszyk, .tlo {
+        display:inline-block;
+    }
+@media only screen and (max-width: 480px) {
+    
+    .kontener, .koszyk, .tlo {
+        display:block;
+    }  
+    
