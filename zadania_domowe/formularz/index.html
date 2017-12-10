@@ -17,24 +17,29 @@
         <input type="email" name="mail" id="mail"><br/>
         <label for="phone">Numer telefonu:</label><br/>
         <input type="tel" name="phone" id="phone"><br/>
+        <br/>
         <label for="city">Wybierz miasto: </label><br/>
         <select id="city" name="city">
                 <option value="1"> Warszawa</option>
                 <option value="2"> Gdańsk </option>
                 <option value="3"> Kraków </option>
               </select>
-        <br/><br/>
+        <br/>
+        <br/>
+        Płeć<br/>
         <label>
         <input type="radio" name="plec" value="male" checked>Mężczyzna</label>
+        <br/>
         <label>
         <input type="radio" name="plec" value="female">Kobieta</label>
         <br/>
-        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label> <br/>
-        <input type="checkbox" name="zgoda" id="zgoda">
-        <br/><br/>
+        <br/>
         <label for="message">Wiadomość</label><br/>
         <textarea rows="5" cols="30" maxlength="1500" name="message" id="message"></textarea><br/>
-        <input type="submit" value="Wyślij" />
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label> <br/>
+        <input type="checkbox" name="zgoda" id="zgoda">
+        <br/>
+        <input type="submit" value="Wyślij" id="send"/>
 
     </form>
 
