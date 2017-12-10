@@ -1,0 +1,20 @@
+body {
+    background-color:burlywood;
+    font-size:15px;
+    font-family:lato, sans-serif;
+}
+
+form {
+    background-color:bisque;
+    margin:2em;
+    padding:1em;
+    width:25%;
+    height:auto;
+}
+#send {
+    background-color:chocolate;
+    font-size:1em;
+    padding:0.3em;
+    height:2.5em;
+    width:3em;
+}

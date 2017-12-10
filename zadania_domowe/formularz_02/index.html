@@ -1,41 +1,41 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css.css">
-<title>Light Theme</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/formularz.css">
+    <title>Light Theme</title>
 </head>
+
 <body>
-	<form id="order" action="blablabla.php" method="post">
-		Customer info: <br/>
-	<label for="customer">Name:<br/>
+    <form id="order" action="blablabla.php" method="post">
+    <h3>Customer info:</h3>
+    <label for="customer">Name:<br/>
 	<input type="text" id="customer" name="customer" value="Enter your name" required autocomplete="on">
 	</label><br/>
-	<label for="phone">Phone:<br/>
-	<input type="tel" id="phone" name="phone" value="Pattern: 1-234-567-8910" pattern="[0-9]+[0-9]{3}+[0-9]{3}+[0-9]{4}" title="Use pattern as at placeholder" autocomplete="on" required>
+    <label for="phone">Phone:<br/>
+	<input type="tel" id="phone" name="phone" value="Pattern: 1-234-567-8910" pattern="[0-9][-][0-9]{3}[-][0-9]{3}[-][0=9]{4}" autocomplete="on" required>
 	</label><br/>
-	<label for="mail">Mail<br/>
+    <label for="mail">Mail<br/>
 	<input type="email"	id="mail" name="mail" value="Enter you email address" required multiple autocomplete="on">
 	</label>
-	<br/>
-	<br/>	
-		Books:<br/>
-	<input list="books">
-		<datalist id="books">
+        <br/>
+        <br/> Books:
+        <br/><br/>
+        <input list="books">
+        <datalist id="books">
   		<option value="Book01">
   		<option value="Book02">
   		<option value="Book03">
   		<option value="Book04">
   		<option value="Book05">
 		</datalist>
-	<label for="quantity">Quantity:
+        <label for="quantity">Quantity:
 	<input type="number" name="quantity" id="quantity" min="1" max="5">
 	</label>
-	<br/><br/>
-	<input type="submit" value="send">
-	</form>
-<!-- Main Container Ends -->
+    <br/><br/>
+    <input type="submit" value="send" id="send">
+    </form>
 </body>
+
 </html>
