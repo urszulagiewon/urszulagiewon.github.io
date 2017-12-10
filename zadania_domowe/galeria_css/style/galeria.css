@@ -7,6 +7,7 @@ body {
     padding:5em;
 }
 
+/* klasy */
 
 .tlo {
     height:23em;
@@ -43,6 +44,7 @@ body {
     transform:translateY(300%);
 }
 
+/* Idki*/
 
 #prod1 {
     background-image:url(product-1.jpg);
@@ -70,6 +72,7 @@ body {
 
 }
 
+/* nie jestem pewna czy to działa, muszę sprawdzić */
 
 @media only screen and (max-width: 922px) {
     
