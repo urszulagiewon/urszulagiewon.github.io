@@ -3,31 +3,57 @@ body {
     margin: 0;
     text-align:center;
     font-size:15px;
+    font-family:lato, sans-serif;
 }
 
 .kontener {
-    width:400px;
-    height:200px;
+    position: relative;
+    height:100%;
+    width:100%;
     display:inline-block;
-    background-color:white;
-    margin:1em;
-    top:25%;
+    background-color:#ff6700;
+    opacity:0;
+    
 }
 
-div#prod1 {
-    background-image:url(product-1.jpg);
-    background-size:cover;
+.koszyk::before {
+    display:block;
+    vertical-align: middle;
+    color:white;
+    position: relative;
+    
 }
-div#prod2 {
-    background-image:url(product-2.jpg);
-    background-size:cover;
-}
-div#prod3 {
-    background-image:url(product-3.jpg);
-    background-size:cover;
-}
-div#prod4 {
-    background-image:url(product-4.jpg);
-    background-size:cover;
+.tlo {
+    height:20em;
+    width:20em;
+    display:inline-block;
+    background-color:#ff6700;
+    
 }
 
+#prod1 {
+    background-image: url(product-1.jpg);
+    background-size: cover;
+}
+
+#prod2 {
+    background-image: url(product-2.jpg);
+    background-size: cover;
+}
+
+#prod3 {
+    background-image: url(product-3.jpg);
+    background-size: cover;
+
+}
+
+#prod4 {
+    background-image: url(product-4.jpg);
+    background-size: cover;
+
+}
+
+.kontener:hover {
+    opacity:0.7;
+    content: "Dodaj do koszyka";
+}
