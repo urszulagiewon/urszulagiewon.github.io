@@ -5,25 +5,29 @@ body {
     font-size:15px;
 }
 
-
-div#prod1 {
-    background-image:url(product-1.jpg)
-}
-div#prod2 {
-    background-image:url(product-2.jpg)
-}
-div#prod3 {
-    background-image:url(product-3.jpg)
-}
-div#prod4 {
-    background-image:url(product-4.jpg)
-}
-
 .kontener {
-    width:43.3em;
-    height:23.3em;
+    width:400px;
+    height:200px;
     display:inline-block;
-    background-color:orange;
-    margin:2em;
+    background-color:white;
+    margin:1em;
     top:25%;
 }
+
+div#prod1 {
+    background-image:url(product-1.jpg);
+    background-size:cover;
+}
+div#prod2 {
+    background-image:url(product-2.jpg);
+    background-size:cover;
+}
+div#prod3 {
+    background-image:url(product-3.jpg);
+    background-size:cover;
+}
+div#prod4 {
+    background-image:url(product-4.jpg);
+    background-size:cover;
+}
+
