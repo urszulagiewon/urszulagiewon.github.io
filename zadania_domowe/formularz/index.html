@@ -10,33 +10,36 @@
 <body>
     <form action="https://formspree.io/urszula.giewon@gmail.com" method="post">
         <label for="name">Imię:</label><br/>
-        <input type="text" name="name" id="name"><br/>
+            <input type="text" name="name" id="name"><br/>
         <label for="surname">Nazwisko:</label><br/>
-        <input type="text" name="surname" id="surname"><br/>
+            <input type="text" name="surname" id="surname"><br/>
         <label for="mail">E-mail:</label><br/>
-        <input type="email" name="mail" id="mail"><br/>
+            <input type="email" name="mail" id="mail"><br/>
         <label for="phone">Numer telefonu:</label><br/>
-        <input type="tel" name="phone" id="phone"><br/>
-        <br/>
+            <input type="tel" name="phone" id="phone">
+        <br/><br/>
         <label for="city">Wybierz miasto: </label><br/>
         <select id="city" name="city">
-                <option value="1"> Warszawa</option>
-                <option value="2"> Gdańsk </option>
-                <option value="3"> Kraków </option>
+                <option value="Warszawa"> Warszawa</option>
+                <option value="Gdańsk"> Gdańsk </option>
+                <option value="Kraków"> Kraków </option>
               </select>
-        <br/>
-        <br/>
-        Płeć<br/>
+          <br/> <br/>
+        <p>Płeć</p>
         <label>
-        <input type="radio" name="plec" value="male" checked>Mężczyzna</label>
+            <input type="radio" name="plec" value="male" checked>Mężczyzna
+        </label>
         <br/>
         <label>
-        <input type="radio" name="plec" value="female">Kobieta</label>
+            <input type="radio" name="plec" value="female">Kobieta
+        </label>
+        <br/><br/>
+        <label for="message">Wiadomość
+        </label>
         <br/>
-        <br/>
-        <label for="message">Wiadomość</label><br/>
         <textarea rows="5" cols="30" maxlength="1500" name="message" id="message"></textarea><br/>
-        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label> <br/>
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych
+            </label> <br/>
         <input type="checkbox" name="zgoda" id="zgoda">
         <br/>
         <input type="submit" value="Wyślij" id="send"/>
