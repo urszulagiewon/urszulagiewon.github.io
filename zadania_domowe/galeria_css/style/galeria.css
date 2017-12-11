@@ -9,79 +9,38 @@ body {
 
 /* klasy */
 
-.tlo {
-    height:23em;
-    width:23em;
-    display:inline-block;
-    background-color:#ff6700;
+
+.kontener {
+    position: absolute;
+    height:100%;
+    width:100%;
     margin:2em;
     
 }
 
-.kontener {
-    position: relative;
-    height:100%;
-    width:100%;
+.lista {
+    list-style:none;
     display:inline-block;
-    background-color:#ff6700;
-    opacity:0;
-    
-}
-.kontener:hover {
+    margin:1em;
     position:relative;
-    opacity:0.85;
+}
+
+#prod1, #prod2, #prod3, #prod4 {
+    background-color:orange;
+    display:inline-block;
+    height:20em;
+    width:20em;
+    margin:1em;
+}
+
+li:hover {
+    opacity:0.7;
     transition:0.7s linear;
+  
 }
-
-.koszyk::before {
-    position: relative;
-    
-}
-
-.inside {
-    position:relative;
-    margin:auto 0;
-    transform:translateY(300%);
-}
-
-/* Idki*/
 
 #prod1 {
     background-image:url(product-1.jpg);
     background-size:cover;
-    background-position:center;
+    background-position:center; 
 }
-
-#prod2 {
-    background-image:url(product-2.jpg);
-    background-size: cover;
-    background-position:center;
-}
-
-#prod3 {
-    background-image:url(product-3.jpg);
-    background-size:cover;
-    background-position:center;
-
-}
-
-#prod4 {
-    background-image:url(product-4.jpg);
-    background-size:cover;
-    background-position:center;
-
-}
-
-/* nie jestem pewna czy to działa, muszę sprawdzić */
-
-@media only screen and (max-width: 922px) {
-    
-    .kontener, .koszyk, .tlo {
-        display:inline-block;
-    }
-@media only screen and (max-width: 480px) {
-    
-    .kontener, .koszyk, .tlo {
-        display:block;
-    }  
-    
