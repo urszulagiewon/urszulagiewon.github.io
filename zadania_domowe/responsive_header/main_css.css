@@ -1,0 +1,30 @@
+body {
+    font-size:15px;
+    margin:0;
+    padding:0;
+}
+header {
+    width:100%;
+    min-height:100vh;
+    color:white;
+    background-image:url(man-1.jpg);
+    background-position:center;
+    background-size:cover;
+    position:fixed;
+
+}
+#text {
+    font-family:verdana, sans-serif;
+    font-size:4vh;
+    text-transform:uppercase;
+    transform:translateY(50vh);
+    position:relative;
+    text-align:left;
+    width:70vw;
+    margin-left:2em;
+}
+
+h1#text > span {
+    font-size:10vh;
+    font-weight:700;
+}

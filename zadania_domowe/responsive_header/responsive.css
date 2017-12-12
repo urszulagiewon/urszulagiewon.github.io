@@ -1,0 +1,93 @@
+/* full screen */
+@media only screen and (max-width: 1170px) {
+
+    header {
+    width:100%;
+    min-height:100vh;
+    background-image:url(man-1.jpg);
+    background-position:center;
+    background-size:cover;
+    position:fixed;
+
+}
+#text {
+    color:white;
+    font-family:verdana, sans-serif;
+    font-size:4vh;
+    text-transform:uppercase;
+    transform:translateY(50vh);
+    position:relative;
+    text-align:left;
+    width:70vw;
+    margin-left:2vw;
+}
+
+h1#text > span {
+    font-size:10vh;
+    font-weight:700;
+}
+
+}
+
+/* Wymyślę potem */
+
+@media only screen and (min-width: 992px) and (max-width: 1170px) {
+
+    header {
+    width:100%;
+    min-height:70vh;
+    background-image:url(man-2.jpg);
+    background-position:center;
+    background-size:cover;
+    position:fixed;
+
+}
+#text {
+    color:white;
+    font-family:verdana, sans-serif;
+    font-size:4vh;
+    text-transform:uppercase;
+    transform:translateY(1vh);
+    transform:translateX(25vw);
+    position:relative;
+    text-align:right;
+}
+
+h1#text > span {
+    font-size:10vh;
+    font-weight:700;
+}
+
+}
+
+
+/* Wymyślę potem */
+
+@media only screen and (max-width: 992px) {
+
+    header {
+    width:100%;
+    min-height:50vh;
+    background-image:url(man-1.jpg);
+    background-position:center;
+    background-size:cover;
+    position:fixed;
+
+}
+#text {
+    display:block;
+    color:black;
+    font-family:verdana, sans-serif;
+    font-size:4vh;
+    text-transform:uppercase;
+    position:absolute;
+    text-align:center;
+}
+
+h1#text > span {
+    font-size:10vh;
+    font-weight:700;
+    text-align:center;
+}
+
+}
