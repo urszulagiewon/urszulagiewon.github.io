@@ -10,11 +10,10 @@ body {
 /* klasy */
 
 .tlo {
-    height:23em;
-    width:23em;
+    height:30vh;
+    width:30vh;
     display:inline-block;
-    background-color:#ff6700;
-    margin:2em;
+    margin:2vh;
     
 }
 
