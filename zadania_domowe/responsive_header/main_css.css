@@ -15,7 +15,7 @@ header {
 }
 #text {
     font-family:verdana, sans-serif;
-    font-size:4vh;
+    font-size:2vh;
     text-transform:uppercase;
     transform:translateY(50vh);
     position:relative;
@@ -25,6 +25,6 @@ header {
 }
 
 h1#text > span {
-    font-size:10vh;
+    font-size:6vh;
     font-weight:700;
 }

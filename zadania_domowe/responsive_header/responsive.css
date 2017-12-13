@@ -13,7 +13,7 @@
 #text {
     color:white;
     font-family:verdana, sans-serif;
-    font-size:4vh;
+    font-size:2vh;
     text-transform:uppercase;
     transform:translateY(50vh);
     position:relative;
@@ -23,7 +23,7 @@
 }
 
 h1#text > span {
-    font-size:10vh;
+    font-size:5vh;
     font-weight:700;
 }
 
@@ -45,7 +45,7 @@ h1#text > span {
 #text {
     color:white;
     font-family:verdana, sans-serif;
-    font-size:4vh;
+    font-size:2vh;
     text-transform:uppercase;
     transform:translateY(1vh);
     transform:translateX(25vw);
@@ -54,7 +54,7 @@ h1#text > span {
 }
 
 h1#text > span {
-    font-size:10vh;
+    font-size:5vh;
     font-weight:700;
 }
 
@@ -78,14 +78,15 @@ h1#text > span {
     display:block;
     color:black;
     font-family:verdana, sans-serif;
-    font-size:4vh;
+    font-size:2vh;
     text-transform:uppercase;
     position:absolute;
     text-align:center;
+    width:100%;
 }
 
 h1#text > span {
-    font-size:10vh;
+    font-size:5vh;
     font-weight:700;
     text-align:center;
 }
