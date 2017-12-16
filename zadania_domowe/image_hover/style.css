@@ -1,5 +1,40 @@
 body {
-    background-color:dimgray;
-    margin:5w;
-    text-align:center;
+    background-color: dimgray;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+div#lake {
+    background-image: url(2-jezioro.jpg);
+    width: 40vw;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 4vw;
+}
+
+div#lake > h1 {
+    opacity: 0;
+    color: white;
+    font-family: georgia, serif;
+    position: relative;
+    background-color: black;
+    position: relative;
+    transform: translateY(8vh);
+    padding: 2vh;
+}
+
+div#lake > h1:hover {
+    opacity: 0.6;
+}
+
+div#lake:hover {
+    outline-offset: 0.3em;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 0.2em;
+    transition outline-offset: 0.5s, linear;
 }
