@@ -1,0 +1,271 @@
+/*full screen */
+@media only screen and (max-width: 1170px) {
+    
+    header#main-header {
+    height:100vh; 
+    }
+    
+    header#main-header >div.main-header-content {
+    transform:translateY(30%);
+}
+    
+    header#main-header >div.main-header-content > h1 {
+        font-size:2.5em; 
+    }  
+    /* o mnie */
+
+    
+    section#about > figure > img {
+    float:left;
+    width:20vw;
+    height:25vw;
+    margin-left:5vw;
+    margin-right:2vw;
+    margin-bottom:10vh;
+    position:relative;
+}
+    
+    section#about > p {
+    text-align:justify;
+    width:60vw;
+    padding-right:5vw;    
+    margin-left:24vw;
+    
+}
+
+    /* Umiejętności */
+    
+    .kontener {
+    
+    height:100%;
+    width:100%;
+    display:inline-block;
+    background-color:#246DA3;
+    opacity:0;
+    transition: opacity 0.7s linear;
+}
+    
+    
+    .inside {
+    position:relative;
+    margin:auto 0;
+    color:white;
+    transform:translateY(5%);
+    display:inline-block;
+    padding:5%;
+}
+    
+    
+    /* social icons */
+    div.social-icons > a {
+    display:inline-block; 
+    width:2vw;
+    height:2vw;
+    border-width:1px;
+    border-color:white;
+    border-style:solid;
+    font-size:1em;
+    text-align:center;
+    margin-top:0 auto; 
+    float:left; 
+    
+}
+    /* formularz */
+    input#send {
+    background-color:#1ac056;
+    font-size:1em;
+    font-weight:500;
+    text-align:center;
+    width:5em;
+    height:2em;
+    padding:0.3em;
+    text-transform:uppercase;
+    margin-left:38vw; 
+}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1170px) {
+    
+    header#main-header {
+    height:75vh; 
+    }
+    
+    header#main-header >div.main-header-content {
+    transform:translateY(15%);
+}
+    
+    header#main-header >div.main-header-content > h1 {
+        font-size:2em; 
+    }  
+    
+    /* O mnie */
+    
+     
+    section#about > figure > img {
+    float:left;
+    width:20vw;
+    height:25vw;
+    margin-left:15vw;
+    margin-bottom:10vh;
+    position:relative;
+}
+    
+    section#about > p {
+    text-align:justify;
+    width:70vw;
+    margin-bottom:25vw;
+    height:auto;
+    padding:2vw; 
+}
+
+        /* Umiejętności */
+    
+    .kontener {
+    
+    height:100%;
+    width:100%;
+    display:inline-block;
+    background-color:#246DA3;
+    opacity:0;
+    transition: opacity 0.7s linear;
+}
+    
+    
+    .inside {
+    position:relative;
+    margin:auto 0;
+    color:white;
+    transform:translateY(5%);
+    display:inline-block;
+    padding:5%;
+}
+     /* social icons */
+    div.social-icons > a {
+    display:inline-block; 
+    width:3vw;
+    height:3vw;
+    border-width:1px;
+    border-color:white;
+    border-style:solid;
+    font-size:1.5em;
+    text-align:center;
+    margin-top:0 auto; 
+    float:left; 
+    
+}
+    /* formularz */
+    input#send {
+    background-color:#1ac056;
+    font-size:1em;
+    font-weight:500;
+    text-align:center;
+    width:5em;
+    height:2em;
+    padding:0.3em;
+    text-transform:uppercase;
+    margin-left:15vw; 
+}
+
+    
+}
+
+/* Widok pionowy */
+
+@media only screen and (max-width: 920px) {
+    
+      header#main-header {
+    height:50vh; 
+    }
+    
+    header#main-header >div.main-header-content {
+    transform:translateY(20%);
+}
+    
+    header#main-header >div.main-header-content > h1 {
+        font-size:1.5em; 
+    }  
+    
+    /* o mnie */
+
+    
+    section#about > figure > img {
+    display:block;
+    float:left;
+    width:20vw;
+    height:25vw;
+    margin-left:5vw;
+    margin-right:2vw;
+    margin-bottom:10vh;
+    position:relative;
+}
+    
+    section#about > p {
+    text-align:justify;
+    width:60vw;
+    padding-right:5vw;    
+    margin-left:24vw;
+    
+}
+    
+    /* umiejętności */
+    
+    section#umiej > figure {
+    width:10vw;
+    display:inline-block;
+    margin:0.2;
+}
+
+    /* Portfolio */
+    
+.tlo {
+    height:45vw;
+    width:45vw;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    position:relative;
+    
+}
+
+.inside {
+    position:relative;
+    margin:auto 0;
+    color:white;
+    display:inline-block;
+    padding:5%;
+    font-size:0.8em; 
+}
+    
+    /* social media */
+    div.social-icons {
+    text-align:center;
+}
+    
+    div.social-icons > a {
+    display:inline-block; 
+    width:1.5em;
+    height:1.5em;
+    border-width:1px;
+    border-color:white;
+    border-style:solid;
+    font-size:1em;
+    text-align:center;
+    margin-top:0 auto; 
+    float:left; 
+    
+}
+    /*formularz*/
+    input#send {
+    background-color:#1ac056;
+    font-size:1em;
+    font-weight:500;
+    text-align:center;
+    width:5em;
+    height:2em;
+    padding:0.3em;
+    text-transform:uppercase;
+    margin-left:25%; 
+    margin-right:25%; 
+}
+}
