@@ -13,7 +13,7 @@ div#lake {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    margin: 4vw;
+    margin:2vw;
 }
 
 div#lake > h1 {
@@ -23,12 +23,13 @@ div#lake > h1 {
     position: relative;
     background-color: black;
     position: relative;
-    transform: translateY(8vh);
-    padding: 2vh;
+    transform: translateY(160%);
+    padding: 1vh;
 }
 
 div#lake > h1:hover {
     opacity: 0.6;
+    width: 100%
 }
 
 div#lake:hover {
