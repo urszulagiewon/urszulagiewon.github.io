@@ -188,23 +188,26 @@
     
     /* o mnie */
 
+    section#about {
+    height:55vh;
+    padding:3vw;
+    position:relative;
+}
     
     section#about > figure > img {
     display:block;
     float:left;
     width:20vw;
     height:25vw;
-    margin-left:5vw;
-    margin-right:2vw;
     margin-bottom:10vh;
     position:relative;
 }
     
     section#about > p {
     text-align:justify;
-    width:60vw;
+    width:80vw;
     padding-right:5vw;    
-    margin-left:24vw;
+    margin-left:5vw;
     
 }
     
