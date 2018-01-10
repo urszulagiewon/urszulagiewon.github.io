@@ -101,6 +101,12 @@
     
     /* O mnie */
     
+    div#firstbox {
+    display:inline-flex;
+    flex-direction:column;
+    align-content:flex-start;
+
+}
      
     section#about > figure > img {
     float:left;
