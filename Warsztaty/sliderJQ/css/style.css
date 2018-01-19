@@ -1,0 +1,99 @@
+/*
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#kontener {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+}
+#kontener, .slide-show, .slide-caption, .single-slide img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide-caption {
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+}
+
+.slider-arrows {
+    position: absolute;
+    transform: translateY(50%);
+    height: 5vh;
+    z-index: 99;
+}
+
+.next-slide {
+right: 0;
+}
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    font-size: 15px;
+}
+
+#glowny-kontener {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+}
+
+#glowny-kontener, #karuzela, .pojedynczy-slajd, img {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.text-slajdu {
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    left:50%;
+}
+
+.arrows {
+    position: absolute;
+    z-index: 99;
+    width:100%;
+    top:50%;
+}
+
+button {
+    width: 5vw;
+    height: 2vw;
+    background-color:transparent;
+    color:white;
+    border:0;
+}
+
+button:hover {
+    border: 0;
+}
+
+button.prawy {
+
+    float:left;
+}
+button.lewy {
+    width: 5vw;
+    height: 2vw;
+    float:right;
+}

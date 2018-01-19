@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#kontener {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+}
+#kontener, .slide-show, .slide-caption, .single-slide img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide-caption {
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+}
+
+.slider-arrows {
+    position: absolute;
+    transform: translateY(50%);
+    height: 5vh;
+    z-index: 99;
+}
+
+.next-slide {
+right: 0;
+}
