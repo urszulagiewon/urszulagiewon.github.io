@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="wplata">Wpłata</label><br/>
+        <input type="number" name="wplata" id="wplata" value="100"><br/>
+        <label for="czestotliwosc-kapitalizacji">Częstotliwość kapitalizacji</label><br/>
+        <select id="czestotliwosc-kapitalizacji" name="czestotliwosc-kapitalizacji">
+                <option value="12">Miesięczne</option>
+                <option value="4">Kwartalne</option>
+                <option value="1"> Roczne </option>
+              </select><br/>
+        <label for="ile-lat">Na ile lat:</label><br/>
+        <input type="number" name="ile-lat" id="ile-lat" value="1" min="1"><br/>
+        <label for="oprocentowanie">Stopa zwrotu w %</label><br/>
+        <input type="number" name="oprocentowanie" id="oprocentowanie" value="10" min="0" max="10"><br/>
+        <label for="oprocentowanie">Czy odliczyć podatek Belki 19%?</label><br/>
+        <input type="checkbox" id="podatek" name="podatek" value="0.19"><br/>
+        <button>Oblicz</button><br/>
+        <p id="wynik-obliczen"></p>
+    </form>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="kalkulator_odsetek.js"></script>
+</body>
+
+</html>

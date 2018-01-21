@@ -34,3 +34,7 @@ body {
 .next-slide {
 right: 0;
 }
+
+.single-silide > img {
+    float: left;
+}
