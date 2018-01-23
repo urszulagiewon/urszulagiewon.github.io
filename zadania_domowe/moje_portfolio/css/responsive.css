@@ -1,325 +1,388 @@
 /*full screen */
-@media only screen and (max-width: 1170px) {
-    
-    header#main-header {
-    height:100vh; 
-    }
-    
-    header#main-header >div.main-header-content {
-    transform:translateY(30%);
-}
-    
-    header#main-header >div.main-header-content > h1 {
-        font-size:2.5em; 
-    }  
-    /* o mnie */
 
-    
+@media only screen and (max-width: 1170px) {
+
+    header#main-header {
+        height: 100vh;
+    }
+
+    header#main-header > div.main-header-content {
+        transform: translateY(30%);
+    }
+
+    header#main-header > div.main-header-content > h1 {
+        font-size: 2.5em;
+    }
+    /* o mnie */
     section#about > figure > img {
-    float:left;
-    width:20vw;
-    height:25vw;
-    margin-left:5vw;
-    margin-right:2vw;
-    margin-bottom:10vh;
-    position:relative;
-}
-    
+        float: left;
+        width: 20vw;
+        height: 25vw;
+        margin-left: 5vw;
+        margin-right: 2vw;
+        margin-bottom: 10vh;
+        position: relative;
+    }
+
     section#about > p {
-    text-align:justify;
-    width:60vw;
-    padding-right:5vw;    
-    margin-left:24vw;
-    
-}
+        text-align: justify;
+        width: 60vw;
+        padding-right: 5vw;
+        margin-left: 24vw;
+
+    }
 
     /* Umiejętności */
-    
     div#box {
-    height:33vw; 
-    width:100%;
-    display:flex;
-    flex-direction:row;
-    justify-content:center; 
-    padding-left:5vw; 
-    padding-right:5vw; 
-    
-}
-    
+        height: 33vw;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
+
+    }
+
     .kontener {
-    
-    height:100%;
-    width:100%;
-    display:block;
-    background-color:#246DA3;
-    opacity:0;
-    transition: opacity 0.7s linear;
-}
-    
-    
+
+        height: 100%;
+        width: 100%;
+        display: block;
+        background-color: #246DA3;
+        opacity: 0;
+        transition: opacity 0.7s linear;
+    }
+
+
     .inside {
-    position:relative;
-    margin:auto 0;
-    color:white;
-    transform:translateY(5%);
-    display:inline-block;
-    padding:5%;
-}
-    
-    
+        position: relative;
+        margin: auto 0;
+        color: white;
+        transform: translateY(5%);
+        display: inline-block;
+        padding: 5%;
+    }
+
+
     /* social icons */
     div.social-icons > a {
-    display:inline-block; 
-    width:2vw;
-    height:2vw;
-    border-width:1px;
-    border-color:white;
-    border-style:solid;
-    font-size:1em;
-    text-align:center;
-    margin-top:0 auto; 
-    float:left; 
-    
-}
+        display: inline-block;
+        width: 2vw;
+        height: 2vw;
+        border-width: 1px;
+        border-color: white;
+        border-style: solid;
+        font-size: 1em;
+        text-align: center;
+        margin-top: 0 auto;
+        float: left;
+
+    }
     /* formularz */
     input#send {
-    background-color:#1ac056;
-    font-size:1em;
-    font-weight:500;
-    text-align:center;
-    width:5em;
-    height:2em;
-    padding:0.3em;
-    text-transform:uppercase;
-    margin-left:38vw; 
-}
+        background-color: #1ac056;
+        font-size: 1em;
+        font-weight: 500;
+        text-align: center;
+        width: 5em;
+        height: 2em;
+        padding: 0.3em;
+        text-transform: uppercase;
+        margin-left: 38vw;
+    }
 
 }
+
+/* węższe ekrany */
 
 @media only screen and (min-width: 992px) and (max-width: 1170px) {
-    
+
     header#main-header {
-    height:75vh; 
+        height: 75vh;
     }
-    
-    header#main-header >div.main-header-content {
-    transform:translateY(15%);
-}
-    
-    header#main-header >div.main-header-content > h1 {
-        font-size:2em; 
-    }  
-    
+
+    header#main-header > div.main-header-content {
+        transform: translateY(15%);
+    }
+
+    header#main-header > div.main-header-content > h1 {
+        font-size: 2em;
+    }
+
     /* O mnie */
-    
     div#firstbox {
-    display:inline-flex;
-    flex-direction:column;
-    align-content:flex-start;
+        display: inline-flex;
+        flex-direction: row;
+        align-content: center;
+        margin-bottom: 2vw;
+        width: 100%;
+    }
 
-}
-     
+    section#about {
+
+        height: auto;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
     section#about > div#firstbox > figure > img {
-    float:left;
-    width:20vw;
-    height:25vw;
-    margin-left:15vw;
-    margin-bottom:10vh;
-    position:relative;
-}
-    
-    section#about > p {
-    text-align:justify;
-    width:70vw;
-    margin-bottom:25vw;
-    height:auto;
-    padding:2vw; 
-}
+        width: 25vh;
+        height: 30vh;
+        position: relative;
+        margin: 0;
+    }
 
-        /* Umiejętności */
-    
+    #about > p {
+        text-align: justify;
+        width: 75vw;
+        margin-bottom: 25vw;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    /* Portfolio */
     .kontener {
-    
-    height:100%;
-    width:100%;
-    display:inline-block;
-    background-color:#246DA3;
-    opacity:0;
-    transition: opacity 0.7s linear;
-}
-    
-    
+
+        height: 100%;
+        width: 100%;
+        display: inline-block;
+        background-color: #246DA3;
+        opacity: 0;
+        transition: opacity 0.7s linear;
+    }
+
+
     .inside {
-    position:relative;
-    margin:auto 0;
-    color:white;
-    transform:translateY(5%);
-    display:inline-block;
-    padding:5%;
-}
-     /* social icons */
+        position: relative;
+        margin: auto 0;
+        color: white;
+        transform: translateY(5%);
+        display: inline-block;
+        padding: 5%;
+    }
+
+    /* social icons */
     div.social-icons > a {
-    display:inline-block; 
-    width:3vw;
-    height:3vw;
-    border-width:1px;
-    border-color:white;
-    border-style:solid;
-    font-size:1.5em;
-    text-align:center;
-    margin-top:0 auto; 
-    float:left; 
-    
-}
+        display: inline-block;
+        width: 3vw;
+        height: 3vw;
+        border-width: 1px;
+        border-color: white;
+        border-style: solid;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 0 auto;
+        float: left;
+
+    }
+
     /* formularz */
     input#send {
-    background-color:#1ac056;
-    font-size:1em;
-    font-weight:500;
-    text-align:center;
-    width:5em;
-    height:2em;
-    padding:0.3em;
-    text-transform:uppercase;
-    margin-left:15vw; 
-}
+        background-color: #1ac056;
+        font-size: 1em;
+        font-weight: 500;
+        text-align: center;
+        width: 5em;
+        height: 2em;
+        padding: 0.3em;
+        text-transform: uppercase;
+        margin-left: 15vw;
+    }
 
-    
+
 }
 
 /* Widok pionowy */
 
 @media only screen and (max-width: 920px) {
-    
-      header#main-header {
-    height:50vh; 
+
+    header#main-header {
+        height: 50vh;
     }
-    
-    header#main-header >div.main-header-content {
-    transform:translateY(20%);
-}
-    
-    header#main-header >div.main-header-content > h1 {
-        font-size:1.5em; 
-    }  
-    
-    /* o mnie */
-    
+
+    header#main-header > div.main-header-content {
+        transform: translateY(20%);
+    }
+
+    header#main-header > div.main-header-content > h1 {
+        font-size: 1.5em;
+    }
+
+    /* O mnie */
     div#firstbox {
-    display:inline-flex;
-    flex-direction:row;
-    align-content:flex-start;
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 2vw;
+    }
 
-}
-    
+    section#about {
+
+        height: auto;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    section#about > div#firstbox > figure > img {
+        width: 15vh;
+        height: 20vh;
+        position: relative;
+        margin: 0;
+    }
+
+    #about > p {
+        text-align: justify;
+        width: 75vw;
+        margin-bottom: 25vw;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+
+
+    /*O mnie*/
     div#box {
-    height:auto; 
-    width:100%;
-    display:flex;
-    flex-direction:column;
-    justify-content:center; 
-    padding-left:5vw; 
-    padding-right:5vw; 
-    
-}
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
 
-    
-    section#about > div#box  >figure > img {
-    display:block;
-    float:left;
-    width:20vw;
-    height:25vw;
-    margin-left:5vw;
-    margin-right:2vw;
-    margin-bottom:10vh;
-    position:relative;
-}
-    
-    section#about > p {
-    text-align:justify;
-    width:60vw;
-    padding-right:5vw;    
-    margin-left:24vw;
-    
-}
-    
+    }
+
+
+    section#about > div#box > figure {
+        width: 20vw;
+        height: 25vw;
+        margin-right: 2vw;
+        margin-bottom: 10vh;
+        position: relative;
+    }
+
+    #about > p {
+        text-align: justify;
+        width: 60vw;
+        padding-right: 5vw;
+        margin-left: 24vw;
+
+    }
+
     /* umiejętności */
-    
-    section#umiej > figure {
-    width:10vw;
-    display:inline-block;
-    margin:0.2;
-}
+    section#umiej {
+
+        display: block;
+        position: relative;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+    section#umiej > figure > img {
+        width: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 0.2;
+        text-align: center;
+    }
 
     /* Portfolio */
-section#portfolio {
-    height:auto;
-    padding-top:2vh;
-    padding-bottom:2vh;
-    text-align:center;
-    width:100%;
-    display:block;
+    div#box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding-left: 20%;
+        padding-right: 20%;
 
-}    
-    
-div#box {
-    width:100%;
-    display:flex;
-    flex-direction:column;
-    justify-content:center; 
-    padding-left:10vw; 
-    padding-right:10vw; 
-    
-}    
-    
-.tlo {
-    height:45vw;
-    width:45vw;
-    display:inline-block;
-    margin:0;
-    padding:0;
-    position:relative;
-    
-}
+    }
 
-.inside {
-    position:relative;
-    margin:auto 0;
-    color:white;
-    display:inline-block;
-    padding:5%;
-    font-size:0.8em; 
-}
-    
+    section#portfolio {
+        height: auto;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        text-align: center;
+        width: 100%;
+        display: block;
+
+    }
+
+    .tlo {
+        height: 45vw;
+        width: 45vw;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        position: relative;
+
+    }
+
+    .inside {
+        position: relative;
+        margin: auto 0;
+        color: white;
+        display: inline-block;
+        padding: 5%;
+        font-size: 0.8em;
+    }
+
+
+    /* Footer */
+    div#narrow-box {
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 10%;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .contact {
+        margin-left: 0;
+        padding: 2vw;
+        width: 100%;
+    }
+
     /* social media */
     div.social-icons {
-    text-align:center;
-}
-    
+        text-align: center;
+        width: 100%;
+    }
+
     div.social-icons > a {
-    display:inline-block; 
-    width:1.5em;
-    height:1.5em;
-    border-width:1px;
-    border-color:white;
-    border-style:solid;
-    font-size:1em;
-    text-align:center;
-    margin-top:0 auto; 
-    float:left; 
-    
-}
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        border-width: 1px;
+        border-color: white;
+        border-style: solid;
+        font-size: 1em;
+        text-align: center;
+        margin-top: 0 auto;
+        float: left;
+    }
     /*formularz*/
+    
+    .contact-form {
+        width: 100%;
+        padding: 2vh;
+    }
+    
     input#send {
-    background-color:#1ac056;
-    font-size:1em;
-    font-weight:500;
-    text-align:center;
-    width:5em;
-    height:2em;
-    padding:0.3em;
-    text-transform:uppercase;
-    margin-left:25%; 
-    margin-right:25%; 
-}
+        background-color: #1ac056;
+        font-size: 1em;
+        font-weight: 500;
+        text-align: center;
+        width: 5em;
+        height: 2em;
+        padding: 0.3em;
+        text-transform: uppercase;
+        margin: 0;
+    }
 }

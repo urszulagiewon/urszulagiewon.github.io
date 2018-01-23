@@ -215,7 +215,7 @@ div#box {
 
 }
 
-.ramka:hover {
+.ramka {
     outline-color:white;
     outline-style:solid;
     outline-width:1px;

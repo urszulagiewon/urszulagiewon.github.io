@@ -130,7 +130,7 @@ section#about > div#firstbox > figure > img {
     width:25vh;
     height:30vh;
     position:relative;
-    margin-left:20vw; 
+    margin-left:5vw; 
 }
 
 section#about > div#firstbox > p {
@@ -215,7 +215,7 @@ div#box {
 
 }
 
-.ramka:hover {
+.ramka {
     outline-color:white;
     outline-style:solid;
     outline-width:1px;
