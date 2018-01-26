@@ -18,7 +18,7 @@
 
                     $(nowyKontener).html("Imię: " + data.imie + "<br>" + "Nazwisko: " + data.nazwisko + "<br>" + "Zawód: " + data.zawod + "<br>" + "Firma: " + data.firma);
 
-                    $("body").append(nowyKontener);
+                    $("body").prepend(nowyKontener);
 
                 })
 
