@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #777777;
+}
+
+h1,
+h2,
+h3,
+button,
+.my_nav {
+    font-family: "Monsterrat", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333333;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    font-size: 0.75em;
+    font-family: "Roboto Slab", verdana, sans-serif;
+}
+
+/* Nawigacja - header */
+
+#nav_img {
+    background-image: url(../images/header/moj_header.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#nav_text {
+    height: 50vh;
+    text-align: center;
+    transform: translateY(50%);
+}
+
+#nav_text > h2 {
+    font-family: "Droid Serif", cursive, serif;
+    font-size: 2em;
+    color: white;
+    padding: 2vh;
+}
+
+#nav_text > button {
+    background-color: #0ed8d6;
+    border: 0;
+    margin: 2vh;
+}
+
+#nav_text > button:hover {
+    opacity: 0.8;
+}
+
+/*- koniec nawigacji i headera */
+
+/* - services - */
+
+#services {
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    background-color: #0ed8d6;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.circle:hover {
+    background-color: transparent;
+    border-color: #0ed8d6;
+    border-style: double;
+    border-width: thin;
+    color: #0ed8d6;
+}
+
+/*- sekcja portfolio */
+
+#main-portfolio {
+    background-color: #f7f7f7;
+    margin-top: 5vh;
+    padding: 10vh;
+}
+
+#main-portfolio > p {
+    
+    font-family: "Droid Serif", cursive, serif;
+}
+
+#projekt01,
+#projekt02,
+#projekt03,
+#projekt04,
+#projekt05,
+#projekt06 {
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    padding: 2vh;
+}
+
+.row-height {
+    margin-bottom: 1em;
+}
+
+.podpis {
+    height: auto;
+    background-color: white;
+    border-bottom-left-radius:5%;
+    border-bottom-right-radius: 5%;
+    padding: 1em;
+    text-align: center;
+}
+
+.podpis > p {
+    font-family: "Droid Serif", cursive, serif; 
+}
+
+#projekt01 {
+    background-image: url(../images/portfolio/box_of_cookies.jpg);
+}
+#projekt02 {
+    background-image: url(../images/portfolio/chaotic_paint.jpg);
+}
+#projekt03 {
+    background-image: url(../images/portfolio/child_with_blue_paint.jpg);
+}
+#projekt04 {
+    background-image: url(../images/portfolio/typing_on_laptop.jpg);
+}
+#projekt05 {
+    background-image: url(../images/portfolio/house_with_blue_doors.jpg);
+}
+#projekt06 {
+    background-image: url(../images/portfolio/chestnut_on_bracket.jpg);
+}
+
+/* Sekcja team*/
+
+#team {
+    margin-top: 3vh;
+    text-align: center;
+    
+}
+
+.team-member {
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;   
+}
+
+.about {
+    width: 10em;
+}
+
+#me {
+     background-image: url(../images/team/woman-1.jpg);
+}
+
+#zdzis {
+     background-image: url(../images/team/man-1.jpg);
+}
+
+#jas {
+     background-image: url(../images/team/man-2.jpg);
+}
