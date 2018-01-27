@@ -108,7 +108,7 @@ p {
 }
 
 #main-portfolio > p {
-    
+
     font-family: "Droid Serif", cursive, serif;
 }
 
@@ -131,41 +131,49 @@ p {
 .podpis {
     height: auto;
     background-color: white;
-    border-bottom-left-radius:5%;
+    border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     padding: 1em;
     text-align: center;
 }
 
 .podpis > p {
-    font-family: "Droid Serif", cursive, serif; 
+    font-family: "Droid Serif", cursive, serif;
 }
 
 #projekt01 {
     background-image: url(../images/portfolio/box_of_cookies.jpg);
 }
+
 #projekt02 {
     background-image: url(../images/portfolio/chaotic_paint.jpg);
 }
+
 #projekt03 {
     background-image: url(../images/portfolio/child_with_blue_paint.jpg);
 }
+
 #projekt04 {
     background-image: url(../images/portfolio/typing_on_laptop.jpg);
 }
+
 #projekt05 {
     background-image: url(../images/portfolio/house_with_blue_doors.jpg);
 }
+
 #projekt06 {
     background-image: url(../images/portfolio/chestnut_on_bracket.jpg);
 }
+
 
 /* Sekcja team*/
 
 #team {
     margin-top: 3vh;
     text-align: center;
-    
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+
 }
 
 .team-member {
@@ -173,21 +181,48 @@ p {
     width: 10em;
     border-radius: 50%;
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
 }
 
 .about {
     width: 10em;
 }
 
+.social {
+    width: 10em;
+    margin-top: -5%;
+}
+
+.social > a {
+    color: #222222;
+}
+
+.social > a:hover {
+    color: #0ed8d6;
+}
+
 #me {
-     background-image: url(../images/team/woman-1.jpg);
+    background-image: url(../images/team/woman-1.jpg);
 }
 
 #zdzis {
-     background-image: url(../images/team/man-1.jpg);
+    background-image: url(../images/team/man-1.jpg);
 }
 
 #jas {
-     background-image: url(../images/team/man-2.jpg);
+    background-image: url(../images/team/man-2.jpg);
+}
+
+
+/*Sekcja contact*/
+
+#contact {
+    background-image: url(../images/footer/wood_backgr.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 0 auto;
 }
