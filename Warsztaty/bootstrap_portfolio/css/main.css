@@ -117,11 +117,13 @@ section#bio > p {
     border-width: 3px;
     border-color: #AACC21;
     filter: grayscale(100%);
+    transition: 3s linear;
 
 }
 
 #main-me:hover {
     filter: grayscale(0%);
+    border-radius: 0%;
 }
 
 
@@ -399,9 +401,7 @@ section#experience > p {
     padding-bottom: color: white;
 }
 
-#message {
-    height: 18vh;
-}
+
 
 #formularz {
     margin: 0 auto;
