@@ -32,35 +32,35 @@
                 $("#indesign").animate({
                     "backgroundColor": "#A0D329",
                     "width": "100%",
-                    "height": "1em"
+                    "height": "1.5em"
                 }, 3000, function () {
                     $("#indesign").append("<p>Indesign na 100%!</p>")
                 });
                 $("#photoshop").animate({
                     "backgroundColor": "#A0D329",
                     "width": "100%",
-                    "height": "1em"
+                    "height": "1.5em"
                 }, 3000, function () {
                     $("#photoshop").append("<p>Photoshop na 100%!</p>")
                 });
                 $("#illustrator").animate({
                     "backgroundColor": "#A0D329",
                     "width": "100%",
-                    "height": "1em"
+                    "height": "1.5em"
                 }, 3000, function () {
                     $("#illustrator").append("<p>Illustrator na 100%!</p>")
                 });
                 $("#corel").animate({
                     "backgroundColor": "#DB9E1D",
                     "width": "50%",
-                    "height": "1em"
+                    "height": "1.5em"
                 }, 3000, function () {
                     $("#corel").append("<p>Corel na 50%, ale mogę się nauczyć ;)</p>");
                 });
                 $("#html").animate({
                     "backgroundColor": "#2D0D4A",
                     "width": "60%",
-                    "height": "1em",
+                    "height": "1.5em",
                     "color": "white"
                 }, 3000, function () {
                     $("#html").append("<p>Jest nieźle i cały czas się uczę! ;)</p>")
@@ -68,7 +68,7 @@
                 $("#css").animate({
                     "backgroundColor": "#2D0D4A",
                     "width": "60%",
-                    "height": "1em",
+                    "height": "1.5em",
                     "color": "white"
                 }, 3000, function () {
                     $("#css").append("<p>Jest nieźle i cały czas się uczę! ;)</p>")
@@ -76,7 +76,7 @@
                 $("#javascript").animate({
                     "backgroundColor": "#3539DF",
                     "width": "50%",
-                    "height": "1em",
+                    "height": "1.5em",
                     "color": "white"
                 }, 3000, function () {
                     $("#javascript").append("<p>Zaczynamy się rozumieć i lubić ;)</p>")
@@ -84,7 +84,7 @@
                 $("#github").animate({
                     "backgroundColor": "#2D1C6E",
                     "width": "70%",
-                    "height": "1em",
+                    "height": "1.5em",
                     "color": "white"
                 }, 3000, function () {
                     $("#github").append("<p>Lubimy się wzajemnie! Kontrola wersji jest super!</p>")

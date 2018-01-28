@@ -103,10 +103,11 @@ section#bio > p {
     margin: 0 auto;
     padding: 2vh;
 }
+
 #main-me {
-    
+
     height: 10em;
-    width:  10em;
+    width: 10em;
     background-image: url(../images/bio/u_giewon_foto.jpg);
     background-position: center;
     background-size: cover;
@@ -115,8 +116,14 @@ section#bio > p {
     border-style: double;
     border-width: 3px;
     border-color: #AACC21;
+    filter: grayscale(100%);
 
 }
+
+#main-me:hover {
+    filter: grayscale(0%);
+}
+
 
 .circle {
     border-radius: 50%;
@@ -139,38 +146,37 @@ section#bio > p {
     color: #80AD26;
     animation-name: rotacja;
     animation-duration: 3s;
-/*    transform: rotate3d(1, 1, 0, 360deg);
+    /*    transform: rotate3d(1, 1, 0, 360deg);
     -webkit-transform: rotate3d(1, 1, 0, 360deg);
     transform-origin: center center;
     transition: all 0.2s ease 0s;
     -webkit-transform-origin: center center;
     -webkit-transition: all 0.2s ease 0s;*/
-
 }
 
 @keyframes rotacja {
     0% {
-    background-color: transparent;
-    border-color: #80AD26;
-    border-style: double;
-    border-width: thin;
-    color: #80AD26;
-    transform: rotate3d(1, 1, 0, 360deg);
-    -webkit-transform: rotate3d(1, 1, 0, 360deg);
-    transform-origin: center center;
-    transition: all 0.2s ease 0s;
-    -webkit-transform-origin: center center;
-    -webkit-transition: all 0.2s ease 0s;
+        background-color: transparent;
+        border-color: #80AD26;
+        border-style: double;
+        border-width: thin;
+        color: #80AD26;
+        transform: rotate3d(1, 1, 0, 360deg);
+        -webkit-transform: rotate3d(1, 1, 0, 360deg);
+        transform-origin: center center;
+        transition: all 0.2s ease 0s;
+        -webkit-transform-origin: center center;
+        -webkit-transition: all 0.2s ease 0s;
     }
     50% {
-    background-color: #80AD26;
-    color: white;
-    transform: rotate3d(1, 1, 0, -360deg);
-    -webkit-transform: rotate3d(1, 1, 0, -360deg);
-    transform-origin: center center;
-    transition: all 0.2s ease 0s;
-    -webkit-transform-origin: center center;
-    -webkit-transition: all 0.2s ease 0s;
+        background-color: #80AD26;
+        color: white;
+        transform: rotate3d(1, 1, 0, -360deg);
+        -webkit-transform: rotate3d(1, 1, 0, -360deg);
+        transform-origin: center center;
+        transition: all 0.2s ease 0s;
+        -webkit-transform-origin: center center;
+        -webkit-transition: all 0.2s ease 0s;
     }
 }
 
@@ -192,7 +198,7 @@ section#bio > p {
     text-align: center;
     transition: 2s linear;
     overflow: hidden;
-    
+
 }
 
 .icon {
@@ -314,13 +320,19 @@ section#skills {
     padding: 2em;
 }
 
-#indesign, #photoshop, #illustrator, #corel {
+#indesign,
+#photoshop,
+#illustrator,
+#corel {
     width: 0;
     height: 2em;
     background-color: #DB9E1D;
 }
 
-#html, #css, #javascript, #github {
+#html,
+#css,
+#javascript,
+#github {
     width: 0;
     height: 2em;
     background-color: #5654A8;
@@ -335,68 +347,36 @@ section#skills {
 
 }
 
-.team-member {
-    height: 10em;
-    width: 10em;
-    border-radius: 50%;
-    background-position: center;
-    background-size: cover;
+section#experience > p {
+    width: 60%;
     margin: 0 auto;
-    padding-top: 2em;
+    padding: 1em;
 }
 
-.about {
-    margin: 0 auto;
-    padding-top: 2em;
-}
+
 
 .social {
     width: 10em;
     margin: 0 auto;
-}
-
-div.social > a {
     display: inline-block;
     color: #222222;
-    height: 30px;
-    width: 30px;
+    height: 8em;
+    width: 8em;
     background-color: #80AD26;
     border-radius: 50%;
     transition: 1s ease;
 }
 
-div.social > a:hover {
+.social > .fa {
+    
+    transform: translateY(70%);
+}
+
+.social:hover {
     color: white;
     border-radius: 0%;
-    
-    
 }
 
-#me {
-    background-image: url(../images/team/me.jpg);
-    filter: contrast(90%);
-    
-}
-
-#me:hover {
-    filter: grayscale(100%);
-}
-
-#zdzis {
-    background-image: url(../images/team/man-1.jpg);
-}
-
-#zdzis:hover {
-    filter: grayscale(100%);
-}
-
-#jas {
-    background-image: url(../images/team/man-2.jpg);
-}
-
-#jas:hover {
-    filter: grayscale(100%);
-}
 
 
 /*Sekcja contact*/
