@@ -313,18 +313,17 @@ section#skills {
     height: auto;
     padding: 2em;
 }
-#head {
-    padding: 1em;
-}
-
-#graphic {
-    padding: 2em;
-}
 
 #indesign, #photoshop, #illustrator, #corel {
     width: 0;
-    height: 1em;
+    height: 2em;
     background-color: #DB9E1D;
+}
+
+#html, #css, #javascript, #github {
+    width: 0;
+    height: 2em;
+    background-color: #5654A8;
 }
 
 /* Sekcja doświadczenie */
