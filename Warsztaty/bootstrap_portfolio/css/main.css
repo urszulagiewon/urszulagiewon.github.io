@@ -89,13 +89,33 @@ p {
 
 /*- koniec nawigacji i headera */
 
-/* - services - */
+/* - BIO - */
 
-#services {
+#bio {
     padding-top: 3em;
     padding-bottom: 2vh;
     margin-bottom: 5vh;
     margin-top: 5vh;
+}
+
+section#bio > p {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 2vh;
+}
+#main-me {
+    
+    height: 10em;
+    width:  10em;
+    background-image: url(../images/bio/u_giewon_foto.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    border-style: double;
+    border-width: 3px;
+    border-color: #AACC21;
+
 }
 
 .circle {
@@ -117,13 +137,41 @@ p {
     border-style: double;
     border-width: thin;
     color: #80AD26;
+    animation-name: rotacja;
+    animation-duration: 3s;
+/*    transform: rotate3d(1, 1, 0, 360deg);
+    -webkit-transform: rotate3d(1, 1, 0, 360deg);
+    transform-origin: center center;
+    transition: all 0.2s ease 0s;
+    -webkit-transform-origin: center center;
+    -webkit-transition: all 0.2s ease 0s;*/
+
+}
+
+@keyframes rotacja {
+    0% {
+    background-color: transparent;
+    border-color: #80AD26;
+    border-style: double;
+    border-width: thin;
+    color: #80AD26;
     transform: rotate3d(1, 1, 0, 360deg);
     -webkit-transform: rotate3d(1, 1, 0, 360deg);
     transform-origin: center center;
     transition: all 0.2s ease 0s;
     -webkit-transform-origin: center center;
     -webkit-transition: all 0.2s ease 0s;
-
+    }
+    50% {
+    background-color: #80AD26;
+    color: white;
+    transform: rotate3d(1, 1, 0, -360deg);
+    -webkit-transform: rotate3d(1, 1, 0, -360deg);
+    transform-origin: center center;
+    transition: all 0.2s ease 0s;
+    -webkit-transform-origin: center center;
+    -webkit-transition: all 0.2s ease 0s;
+    }
 }
 
 
@@ -207,7 +255,7 @@ p {
 }
 
 #projekt02 {
-    background-image: url(../images/portfolio/stworzonko.jpg);
+    background-image: url(../images/portfolio/uni1.jpg);
     transition: 2s linear;
 }
 
@@ -216,7 +264,7 @@ p {
 }
 
 #projekt03 {
-    background-image: url(../images/portfolio/szaman1.jpg);
+    background-image: url(../images/portfolio/info_ang.jpg);
     transition: 2s linear;
 }
 
@@ -226,7 +274,7 @@ p {
 
 
 #projekt04 {
-    background-image: url(../images/portfolio/uni1.jpg);
+    background-image: url(../images/portfolio/rollup.jpg);
     transition: 2s linear;
 }
 
@@ -235,7 +283,7 @@ p {
 }
 
 #projekt05 {
-    background-image: url(../images/portfolio/golden.jpg);
+    background-image: url(../images/portfolio/nauka_angielskiego_new1.jpg);
     transition: 2s linear;
 
 }
@@ -247,7 +295,7 @@ p {
 
 
 #projekt06 {
-    background-image: url(../images/portfolio/dog.jpg);
+    background-image: url(../images/portfolio/web.jpg);
     background-size: cover;
     transition: 2s linear;
 
@@ -257,10 +305,31 @@ p {
     transform: scale(1.5);
 }
 
+/* Sekcja umiejetności */
 
-/* Sekcja team*/
+section#skills {
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    height: auto;
+    padding: 2em;
+}
+#head {
+    padding: 1em;
+}
 
-#team {
+#graphic {
+    padding: 2em;
+}
+
+#indesign, #photoshop, #illustrator, #corel {
+    width: 0;
+    height: 1em;
+    background-color: #DB9E1D;
+}
+
+/* Sekcja doświadczenie */
+
+#experience {
     margin: 0 auto;
     padding: 5em;
     text-align: center;
