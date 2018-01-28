@@ -157,7 +157,7 @@ p {
 .maska:hover {
     background-color: rgba(162, 219, 48, 0.6);
     opacity: 1;
-    filter: hue-rotate(220deg)
+    filter: hue-rotate(300deg)
 }
 
 
