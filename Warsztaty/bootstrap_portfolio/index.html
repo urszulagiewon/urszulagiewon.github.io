@@ -7,35 +7,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arya|Oswald|Roboto" rel="stylesheet">
 
 </head>
 <script src="https://use.fontawesome.com/10f3f887a3.js"></script>
 
 <body>
     <!-- nawigacja -->
-    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light top-fixed my_nav">
-        <a class="navbar-brand" href="#">Urszula Giewoń portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="conteiner-flex">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="main-nav">
+            <a class="navbar-brand" href="#">Urszula Giewoń Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto w-100 justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portf">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <!--- Koniec nawigacji -->
     <!-- Header image -->
@@ -51,7 +53,7 @@
     <!-- Services -->
 
     <section id="services">
-        <h2 class="text-center">Services</h2>
+            <h2 class="text-center"><a name="services"></a>Services</h2>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde placeat laborum commodi earum, sint quasi totam quidem quas, perferendis sunt nisi, asperiores dolor, recusandae autem animi incidunt debitis id molestiae!</p>
     </section>
     <div class="container">
@@ -78,28 +80,49 @@
     <!--  Sekcja portfolio -->
 
     <section id="main-portfolio">
-        <h3 class="text-center">Portfolio</h3>
+            <h2 class="text-center"><a id="portf"></a>Portfolio</h2>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, assumenda!</p>
         <div class="container">
             <div class="row row-height">
-                <div class="col-md-4 maska">
-                    <div id="projekt01">
+                <div class="col-md-4">
+                    <div class="przytnij">
+                        <div id="projekt01">
+                            <div class="maska">
+                                <div class="icon">
+                                    <i class="fa fa-plus fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col podpis">
                         <h6>Lorem ipsum dolor.</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                     </div>
                 </div>
-                <div class="col-md-4 maska">
-                    <div id="projekt02">
+                <div class="col-md-4">
+                    <div class="przytnij">
+                        <div id="projekt02">
+                            <div class="maska">
+                                <div class="icon">
+                                    <i class="fa fa-plus fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col podpis">
                         <h6>Lorem ipsum dolor.</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                     </div>
                 </div>
-                <div class="col-md-4 maska">
-                    <div id="projekt03">
+                <div class="col-md-4">
+                    <div class="przytnij">
+                        <div id="projekt03">
+                            <div class="maska">
+                                <div class="icon">
+                                    <i class="fa fa-plus fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col podpis">
                         <h6>Lorem ipsum dolor.</h6>
@@ -110,24 +133,45 @@
         </div>
         <div class="container">
             <div class="row row-height">
-                <div class="col-md-4 maska">
-                    <div id="projekt04">
+                <div class="col-md-4">
+                   <div class="przytnij">
+                        <div id="projekt04">
+                            <div class="maska">
+                                <div class="icon">
+                                    <i class="fa fa-plus fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col podpis">
                         <h6>Lorem ipsum dolor.</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                     </div>
                 </div>
-                <div class="col-md-4 maska">
-                    <div id="projekt05">
+                <div class="col-md-4">
+                   <div class="przytnij">
+                        <div id="projekt05">
+                            <div class="maska">
+                                <div class="icon">
+                                    <i class="fa fa-plus fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col podpis">
                         <h6>Lorem ipsum dolor.</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                     </div>
                 </div>
-                <div class="col-md-4 maska">
-                    <div id="projekt06">
+                <div class="col-md-4">
+                   <div class="przytnij">
+                        <div id="projekt06">
+                            <div class="maska">
+                                <div class="icon">
+                                    <i class="fa fa-plus fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col podpis">
                         <h6>Lorem ipsum dolor.</h6>
@@ -140,18 +184,18 @@
     <!-- Koniec sekcji portfolio -->
     <!-- Sekcja TEAM -->
     <section id="team">
-        <h3>Meet our team</h3>
+            <h3><a name="team"></a>Meet our team</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo excepturi deserunt, atque voluptate architecto reiciendis.</p>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div>
-                        <div class="col team-member" id="me"></div>
-                        <div class="col about">
+                        <div class="team-member" id="me"></div>
+                        <div class="about">
                             <h6>Urszula Giewoń</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur.</p>
                         </div>
-                        <div class="col social">
+                        <div class="social">
                             <a href=""><i class="fa fa-github-alt fa-1x" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a>
@@ -160,11 +204,11 @@
                 </div>
                 <div class="col-md-4">
                     <div class="team-member" id="jas"> </div>
-                    <div class="col about">
+                    <div class="about">
                         <h6>Jan Kowalski</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur.</p>
                     </div>
-                    <div class="col social">
+                    <div class="social">
                         <a href=""><i class="fa fa-github-alt fa-1x" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a>
@@ -173,11 +217,11 @@
                 <div class="col-md-4">
                     <div class="team-member" id="zdzis">
                     </div>
-                    <div class="col about">
+                    <div class="about">
                         <h6>Zdzisław Jagodziński</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur.</p>
                     </div>
-                    <div class="col social">
+                    <div class="social">
                         <a href=""><i class="fa fa-github-alt fa-1x" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a>
@@ -191,22 +235,54 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-center">Contact with me</h2>
+                <div class="col-md-12" id="text-contact">
+                    <a href="#contact">
+                        <h2 class="text-center"> <a name="contact"></a>Contact with me</h2>
+                    </a>
                     <p class="text-center">Feel free to contact with me</p>
                 </div>
-
-                <div class="col-md-6"></div>
-                <div class="col-md-6"></div>
             </div>
         </div>
+        <div class="container" id="formularz">
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="name"></label>
+                        <input type="text" class="form-control" placeholder="place your name" name="name" id="name">
+                        <label for="mail"></label>
+                        <input type="email" class="form-control" placeholder="Email" name="mail" id="mail">
+                        <label for="phone"></label>
+                        <input type="number" class="form-control" placeholder="Phone number" name="phone" id="phone">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="message"></label>
+                        <input type="text" class="form-control input-lg" placeholder="Your message here" name="message" id="message">
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="btn" id="send">Wyślij wiadomość</button>
+            </form>
+
+        </div>
     </section>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-ms-4">Copyright by Urszula Giewoń</div>
+                <div class="col-md-4 col-ms-4"><a href=""><i class="fa fa-github-alt fa-1x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a></div>
+                <div class="col-md-4 col-ms-4"> Privacy politycy Term of use</div>
+            </div>
+        </div>
+    </footer>
     <!-- scripts JS -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="jScript/main.js"></script>
 
 </body>
 
