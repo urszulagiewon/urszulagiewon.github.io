@@ -327,8 +327,8 @@ h3#skill {
 }
 
 h3#skill:hover {
-    background-color: #80AD26;
-    color: white;
+    color: #80AD26;
+    transform: scale(1.3);
 }
 
 #indesign,
