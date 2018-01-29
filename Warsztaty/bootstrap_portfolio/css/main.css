@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-size: 20px;
     color: #777777;
-    font-family: "Oswald", verdana, sans-serif;
+    font-family: "Roboto", verdana, sans-serif;
 }
 
 a {
@@ -213,7 +213,7 @@ section#bio > p {
 .maska:hover {
     background-color: rgba(162, 219, 48, 0.6);
     opacity: 1;
-    filter: hue-rotate(300deg)
+    filter: grayscale()
 }
 
 
@@ -322,6 +322,15 @@ section#skills {
     padding: 2em;
 }
 
+h3#skill {
+    transition: 2s;
+}
+
+h3#skill:hover {
+    background-color: #80AD26;
+    color: white;
+}
+
 #indesign,
 #photoshop,
 #illustrator,
@@ -343,10 +352,10 @@ section#skills {
 /* Sekcja doświadczenie */
 
 #experience {
-    margin: 0 auto;
-    padding: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     text-align: center;
-
+    
 }
 
 section#experience > p {
@@ -355,23 +364,29 @@ section#experience > p {
     padding: 1em;
 }
 
-
+#exp {
+    padding: 1em;
+    background-color: #D1D1D1;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: none;
+}
 
 .social {
-    width: 10em;
+    width: 8em;
+    height: 8em;
     margin: 0 auto;
     display: inline-block;
     color: #222222;
-    height: 8em;
-    width: 8em;
     background-color: #80AD26;
     border-radius: 50%;
     transition: 1s ease;
+    padding: 1em;
 }
 
 .social > .fa {
-    
-    transform: translateY(70%);
+
+    transform: translateY(50%);
 }
 
 .social:hover {
@@ -394,6 +409,7 @@ section#experience > p {
     padding: 0 auto;
     color: white;
     padding-bottom: 2em;
+    text-align: center;
 }
 
 #text-contact {
@@ -401,14 +417,9 @@ section#experience > p {
     padding-bottom: color: white;
 }
 
-
-
-#formularz {
-    margin: 0 auto;
-    text-align: center;
-
+#message {
+    height: 18vh;
 }
-
 
 #send {
     margin: 0 auto;
@@ -431,4 +442,34 @@ footer {
     padding: 2vh;
     font-family: "Roboto Slab", verdana, sans-serif;
     font-size: 0.75em;
+}
+
+.footer-icons {
+    display: inline-block;
+    height: 3em;
+    width: 3em;
+    border-radius: 0;
+    background-color: #9ED62F;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+    color: white;
+}
+
+.footer-icons:hover {
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.footer-icons > .fa {
+    transform: translateY(25%);
+}
+
+.footer-icons > .fa:hover {
+    color: #9ED62F;
+}
+
+.footer-icons > a:hover {
+    color: #9ED62F;
 }

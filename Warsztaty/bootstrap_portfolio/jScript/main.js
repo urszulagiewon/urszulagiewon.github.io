@@ -22,8 +22,33 @@
             }, 1000, "swing", function () {
                 window.location.hash = target;
             })
-        })
+        });
 
+        
+        /*$("#main-me").on({
+            "click": function(){  
+            $("#about-me").text("My work is my passion - it’s neccessery to be the best in your job. My second name is ambition and  determination. If I want to achieve something - I’ll do it. I’m also a support for my team. I know that’s one of the most important thing to create good working group. Happy owner of two siberian cats and dream about own horse "),
+                
+            }
+        })*/
+        
+        
+        $("#main-me").on({
+            "dblclick": function(){
+                $("#about-me").text('My work is my passion - it’s neccessery to be the best in your job. My second name is ambition and  determination. If I want to achieve something - I’ll do it. I’m also a support for my team. I know that’s one of the most important thing to create good working group. Happy owner of two siberian cats and dream about own horse')
+            },
+            "click": function(){
+                $("#about-me").text('Do wszystkiego co robię podchodzę z pasją. Ambicja oraz wytrwałość to moje drugie imiona. Niestraszne mi deadliny, praca pod presją czasu ani współpraca z klientem. Swojemu zespołowi oddaję całe swoje serce, staram się być mocną podporą oraz wsparciem, na które może liczyć. Kocham nowe wyzwania!')
+            }
+    
+        });
+        
+        $("#expir").on({
+            "click": function(){
+                $("#exp").show(3000);
+            }
+        })
+        
         /* animacja umiejętności */
 
 
@@ -51,151 +76,49 @@
                     $("#illustrator").append("<p>Illustrator na 100%!</p>")
                 });
                 $("#corel").animate({
-                    "backgroundColor": "#DB9E1D",
+                    "backgroundColor": "#DDF744",
                     "width": "50%",
                     "height": "1.5em"
                 }, 3000, function () {
                     $("#corel").append("<p>Corel na 50%, ale mogę się nauczyć ;)</p>");
                 });
                 $("#html").animate({
-                    "backgroundColor": "#2D0D4A",
+                    "backgroundColor": "#DDF744",
                     "width": "60%",
                     "height": "1.5em",
-                    "color": "white"
+                    "color": "#969696"
                 }, 3000, function () {
                     $("#html").append("<p>Jest nieźle i cały czas się uczę! ;)</p>")
                 });
                 $("#css").animate({
-                    "backgroundColor": "#2D0D4A",
+                    "backgroundColor": "#DDF744",
                     "width": "60%",
                     "height": "1.5em",
-                    "color": "white"
+                    "color": "#969696"
                 }, 3000, function () {
                     $("#css").append("<p>Jest nieźle i cały czas się uczę! ;)</p>")
                 });
                 $("#javascript").animate({
-                    "backgroundColor": "#3539DF",
+                    "backgroundColor": "#DDF744",
                     "width": "50%",
                     "height": "1.5em",
-                    "color": "white"
+                    "color": "#969696"
                 }, 3000, function () {
                     $("#javascript").append("<p>Zaczynamy się rozumieć i lubić ;)</p>")
                 });
                 $("#github").animate({
-                    "backgroundColor": "#2D1C6E",
+                    "backgroundColor": "#DDF744",
                     "width": "70%",
                     "height": "1.5em",
-                    "color": "white"
+                    "color": "#969696"
                 }, 3000, function () {
                     $("#github").append("<p>Lubimy się wzajemnie! Kontrola wersji jest super!</p>")
                 });
-
+                $("#skill").off("click");
             }
 
         });
 
 
-        /* $("#ind").on({
-             "click": function () {
-                 $("#indesign").animate({
-                     "backgroundColor": "#A0D329",
-                     "width": "100%",
-                     "height": "1em"
-                 }, 3000, function () {
-                     $("#indesign").append("<p>Indesign na 100%!</p>")
-                 });
-             }
-         });*/
-        /*
-                $("#ps").on({
-                    "click": function () {
-                        $("#photoshop").animate({
-                            "backgroundColor": "#A0D329",
-                            "width": "100%",
-                            "height": "1em"
-                        }, 3000, function () {
-                            $("#photoshop").append("<p>Photoshop na 100%!</p>")
-                        });
-                    }
-                });*/
-
-
-        /*        $("#il").on({
-                    "click": function () {
-                        $("#illustrator").animate({
-                            "backgroundColor": "#A0D329",
-                            "width": "100%",
-                            "height": "1em"
-                        }, 3000, function () {
-                            $("#illustrator").append("<p>Illustrator na 100%!</p>")
-                        });
-                    }
-                });*/
-
-        /*        $("#cor").on({
-                    "click": function () {
-                        $("#corel").animate({
-                            "backgroundColor": "#DB9E1D",
-                            "width": "50%",
-                            "height": "1em"
-                        }, 3000, function () {
-                            $("#corel").append("<p>Corel na 50%, ale mogę się nauczyć ;)</p>");
-                        });
-                    }
-                });*/
-
-        /*
-                $("#htm").on({
-                    "click": function () {
-                        $("#html").animate({
-                            "backgroundColor": "#2D0D4A",
-                            "width": "60%",
-                            "height": "1em",
-                            "color": "white"
-                        }, 3000, function () {
-                            $("#html").append("<p>Jest nieźle i cały czas się uczę! ;)</p>")
-                        });
-                    }
-                });
-        */
-
-        /*  $("#c-s-s").on({
-              "click": function () {
-                  $("#css").animate({
-                      "backgroundColor": "#2D0D4A",
-                      "width": "60%",
-                      "height": "1em",
-                      "color": "white"
-                  }, 3000, function () {
-                      $("#css").append("<p>Jest nieźle i cały czas się uczę! ;)</p>")
-                  });
-              }
-          });*/
-        /*
-                $("#java").on({
-                    "click": function () {
-                        $("#javascript").animate({
-                            "backgroundColor": "#3539DF",
-                            "width": "50%",
-                            "height": "1em",
-                            "color": "white"
-                        }, 3000, function () {
-                            $("#javascript").append("<p>Zaczynamy się rozumieć i lubić ;)</p>")
-                        });
-                    }
-                });*/
-
-   /*     $("#git").on({
-            "click": function () {
-                $("#github").animate({
-                    "backgroundColor": "#2D1C6E",
-                    "width": "70%",
-                    "height": "1em",
-                    "color": "white"
-                }, 3000, function () {
-                    $("#github").append("<p>Lubimy się wzajemnie! Kontrola wersji jest super!</p>")
-                });
-            }
-        });*/
-
+      
     });
