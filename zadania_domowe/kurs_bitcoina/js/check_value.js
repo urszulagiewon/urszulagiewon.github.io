@@ -23,24 +23,16 @@ $(function () {
 
                     $("#kupno").html(kupno + " " + symbol);
                     if (kupno < ostatniKurs) {
-                        $("#kupno").append('<i class="fa fa-arrow-down fa-2x" aria-hidden="true"></i>').css({
-                            "color": "red"
-                        });
+                        $("#kupno").append('<i class="fa fa-arrow-down fa-2x red" aria-hidden="true"></i>');
                     } else {
-                        $("#kupno").append('<i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i>').css({
-                            "color": "green"
-                        });
+                        $("#kupno").append('<i class="fa fa-arrow-up fa-2x green" aria-hidden="true"></i>');
                     }
 
                     $("#sprzedaz").html(sprzedaz + " " + symbol);
                     if (sprzedaz < ostatniKurs) {
-                        $("#sprzedaz").append('<i class="fa fa-arrow-down fa-2x" aria-hidden="true"></i>').css({
-                            "color": "red"
-                        });
+                        $("#sprzedaz").append('<i class="fa fa-arrow-down fa-2x red" aria-hidden="true"></i>');
                     } else {
-                        $("#sprzedaz").append('<i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i>').css({
-                            "color": "green"
-                        });
+                        $("#sprzedaz").append('<i class="fa fa-arrow-up fa-2x green" aria-hidden="true"></i>');
                     }
 
 
