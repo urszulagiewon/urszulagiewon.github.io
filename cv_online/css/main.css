@@ -1,0 +1,480 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #777777;
+    font-family: "Roboto", verdana, sans-serif;
+}
+
+a {
+    color: #777777;
+}
+
+a:hover {
+    color: #9ED62F;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+button {
+    font-family: "Arya", verdana, sans-serif;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    font-size: 0.75em;
+    font-family: "Roboto", verdana, sans-serif;
+}
+
+/* Nawigacja - header */
+
+#main-nav {
+    color: white;
+}
+
+#main-nav > a {
+    color: white;
+}
+
+#main-nav > button {
+    color: white;
+}
+
+#main-button {
+	background-color: #80AD26;
+	border: 0;
+    margin: 2vh;
+	transition: 2s;
+}
+
+#main-button:hover {
+	opacity: 0.7;
+}
+
+.changeNav {
+    background-color: #9ED62F;
+    opacity: 0.7;
+    color: white;
+}
+
+#nav_img {
+    background-image: url(../images/header/my_header.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#nav_text {
+    height: 50vh;
+    text-align: center;
+    transform: translateY(50%);
+}
+
+#nav_text > h2 {
+    font-family: "Arya", verdana, sans-serif;
+    font-size: 2em;
+    color: white;
+    padding: 2vh;
+}
+
+
+/*- koniec nawigacji i headera */
+
+/* - BIO - */
+
+#bio {
+    padding-top: 3em;
+    padding-bottom: 2vh;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+section#bio > p {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 2vh;
+}
+
+#main-me {
+
+    height: 10em;
+    width: 10em;
+    background-image: url(../images/bio/u_giewon_foto.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    border-style: double;
+    border-width: 3px;
+    border-color: #AACC21;
+    filter: grayscale(100%);
+    transition: 3s linear;
+
+}
+
+#main-me:hover {
+    filter: grayscale(0%);
+    border-radius: 0%;
+}
+
+
+.circle {
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    background-color: #80AD26;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.circle:hover {
+    background-color: transparent;
+    border-color: #80AD26;
+    border-style: double;
+    border-width: thin;
+    color: #80AD26;
+    animation-name: rotacja;
+    animation-duration: 3s;
+    /*    transform: rotate3d(1, 1, 0, 360deg);
+    -webkit-transform: rotate3d(1, 1, 0, 360deg);
+    transform-origin: center center;
+    transition: all 0.2s ease 0s;
+    -webkit-transform-origin: center center;
+    -webkit-transition: all 0.2s ease 0s;*/
+}
+
+@keyframes rotacja {
+    0% {
+        background-color: transparent;
+        border-color: #80AD26;
+        border-style: double;
+        border-width: thin;
+        color: #80AD26;
+        transform: rotate3d(1, 1, 0, 360deg);
+        -webkit-transform: rotate3d(1, 1, 0, 360deg);
+        transform-origin: center center;
+        transition: all 0.2s ease 0s;
+        -webkit-transform-origin: center center;
+        -webkit-transition: all 0.2s ease 0s;
+    }
+    50% {
+        background-color: #80AD26;
+        color: white;
+        transform: rotate3d(1, 1, 0, -360deg);
+        -webkit-transform: rotate3d(1, 1, 0, -360deg);
+        transform-origin: center center;
+        transition: all 0.2s ease 0s;
+        -webkit-transform-origin: center center;
+        -webkit-transition: all 0.2s ease 0s;
+    }
+}
+
+
+
+/*- sekcja portfolio */
+
+.przytnij {
+    overflow: hidden;
+}
+
+.maska {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(162, 219, 48, 0);
+    opacity: 0;
+    position: absolute;
+    color: white;
+    text-align: center;
+    transition: 2s linear;
+    overflow: hidden;
+
+}
+
+.icon {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: translateY(35%);
+}
+
+.maska:hover {
+    background-color: rgba(162, 219, 48, 0.6);
+    opacity: 1;
+    filter: grayscale()
+}
+
+
+#main-portfolio {
+    background-color: #f7f7f7;
+    margin-top: 5vh;
+    padding: 10vh;
+}
+
+
+#projekt01,
+#projekt02,
+#projekt03,
+#projekt04,
+#projekt05,
+#projekt06 {
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.row-height {
+    margin-bottom: 1em;
+}
+
+.podpis {
+    height: auto;
+    background-color: white;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 1em;
+    text-align: center;
+}
+
+
+#projekt01 {
+    background-image: url(../images/portfolio/between.jpg);
+    transition: 2s linear;
+
+}
+
+#projekt01:hover {
+    transform: scale(1.5);
+}
+
+#projekt02 {
+    background-image: url(../images/portfolio/uni1.jpg);
+    transition: 2s linear;
+}
+
+#projekt02:hover {
+    transform: scale(1.5);
+}
+
+#projekt03 {
+    background-image: url(../images/portfolio/info_ang.jpg);
+    transition: 2s linear;
+}
+
+#projekt03:hover {
+    transform: scale(1.5);
+}
+
+
+#projekt04 {
+    background-image: url(../images/portfolio/rollup.jpg);
+    transition: 2s linear;
+}
+
+#projekt04:hover {
+    transform: scale(1.5);
+}
+
+#projekt05 {
+    background-image: url(../images/portfolio/nauka_angielskiego_new1.jpg);
+    transition: 2s linear;
+
+}
+
+#projekt05:hover {
+    transform: scale(1.5);
+
+}
+
+
+#projekt06 {
+    background-image: url(../images/portfolio/web.jpg);
+    background-size: cover;
+    transition: 2s linear;
+
+}
+
+#projekt06:hover {
+    transform: scale(1.5);
+}
+
+/* Sekcja umiejetności */
+
+section#skills {
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    height: auto;
+    padding: 2em;
+	text-align: center;
+}
+
+#skill {
+    transition: 2s;
+}
+
+#skill:hover {
+    color: white;
+    transform: scale(1.3);
+	background-color: #80AD26;
+	border-color: transparent;
+}
+
+#indesign,
+#photoshop,
+#illustrator,
+#corel {
+    width: 0;
+    height: 2em;
+    background-color: #DB9E1D;
+}
+
+#html,
+#css,
+#javascript,
+#github {
+    width: 0;
+    height: 2em;
+    background-color: #5654A8;
+}
+
+/* Sekcja doświadczenie */
+
+#experience {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    
+}
+
+section#experience > p {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#exp {
+    padding: 1em;
+    background-color: #D1D1D1;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    display: none;
+}
+
+.social {
+    width: 8em;
+    height: 8em;
+    margin: 0 auto;
+    display: inline-block;
+    color: #222222;
+    background-color: #80AD26;
+    border-radius: 50%;
+    transition: 1s ease;
+    padding: 1em;
+}
+
+.social > .fa {
+
+    transform: translateY(50%);
+}
+
+.social:hover {
+    color: white;
+    border-radius: 0%;
+}
+
+
+
+/*Sekcja contact*/
+
+#contact {
+    background-image: url(../images/footer/wood_backgr.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+    color: white;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+#text-contact {
+    padding-top: 5vh;
+    padding-bottom: color: white;
+}
+
+#message {
+    height: 18vh;
+}
+
+#send {
+    margin: 0 auto;
+    padding: 1vh;
+    background-color: #9ED62F;
+    border: 0;
+    transition: 2s ease;
+
+}
+
+#send:hover {
+    border-radius: 0;
+    filter: grayscale(100%)
+}
+
+/*  footer */
+
+footer {
+    text-align: center;
+    padding: 2vh;
+    font-family: "Roboto Slab", verdana, sans-serif;
+    font-size: 0.75em;
+}
+
+.footer-icons {
+    display: inline-block;
+    height: 3em;
+    width: 3em;
+    border-radius: 0;
+    background-color: #9ED62F;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+    color: white;
+}
+
+.footer-icons:hover {
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.footer-icons > .fa {
+    transform: translateY(25%);
+}
+
+.footer-icons > .fa:hover {
+    color: #9ED62F;
+}
+
+.footer-icons > a:hover {
+    color: #9ED62F;
+}
