@@ -49,8 +49,8 @@ console.log(result);
 
 $("button").on({
     "click": function(){
-        $("#window").fadeOut(3000).fadeIn(3000);
-        $("p").show(3000);
+        $("#window").fadeOut(1000).fadeIn(5000);
+        $("p").show(3500);
         $("p").append(result);
         $("button").off("click");
     },

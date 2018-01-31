@@ -63,6 +63,7 @@ p {
     color: darkgray;
     text-align: center;
     transform: translateY(10%);
+    display: none;
 }
 
 #klik {
