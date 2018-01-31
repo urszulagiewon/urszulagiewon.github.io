@@ -12,7 +12,7 @@ var yourNumber = generateNumbers();
   
     switch(yourNumber) {
        case 0: 
-         result = "Uśmiechnij się, to będzie dobry dzień!";
+         result = "Yerba, kawa, herbata? Wybierz mądrze!";
          break;
         case 1: 
           result = "Hej! Ktoś cię lubi!";
@@ -24,31 +24,33 @@ var yourNumber = generateNumbers();
           result = "Kawa nie pyta, kawa rozumie";
           break;
         case 4:
-          result = "Dam Ci kwiatka :)";
+          result = "Zombie zombie zombie a kiwi kiwi kiwi";
           break;
         case 5:
-          result = "Możesz nie wierzyć w pizzę, ale ona w Ciebie wierzy!";
+          result = "Programujesz? Programuj!";
           break;
         case 6:
-          result = "Hello! :)";
+          result = "Uważaj, to wciąga...";
           break;
         case 7:
           result = "Tobie też się nie chce?";
           break;
         case 8:
-          result = "No kliknij, kliknij";
+          result = "Hello! :)";
           break;
         case 9:
-          result = "Idę sobie, naprawdę!";
+          result = "No i tak cały dzień będziesz klikać?";
           break;
         case 10:
-          result = "Lody czekoladowe czy waniliowe?";
+          result = "Aaaaaaaaa! Kryć się!";
           break;
     }
 console.log(result);
 
 $("button").on({
     "click": function(){
+        $("#window").fadeOut(3000).fadeIn(3000);
+        $("p").show(3000);
         $("p").append(result);
         $("button").off("click");
     },
