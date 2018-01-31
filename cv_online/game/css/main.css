@@ -53,15 +53,17 @@ p {
     border-radius: 15%;
     background-color: darkslateblue;
     transform: translateY(20%);
+    border:0;
 }
 
 #window > p {
     height: 50%;
     width: 100%;
-    padding: 1em;
+    padding: 2em;
     color: darkgray;
     text-align: center;
-    transform: translateY(50%);
+    transform: translateY(10%);
+    display: hidden;
 }
 
 #klik {
