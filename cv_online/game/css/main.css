@@ -1,0 +1,71 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+#table {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5em;
+    background-image: url(../img/blackboard.jpg), url(../img/wood.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+#ball,
+#inner-ball,
+#window,
+p {
+    position: relative;
+}
+
+#inner-ball,
+#window,
+p {
+    margin: 0 auto;
+}
+
+#ball {
+    height: 30em;
+    width: 30em;
+    border-radius: 50%;
+    background-image: url(../img/rain.jpg), url(../img/grad.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+
+}
+
+#inner-ball {
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
+    background-color: black;
+    border-color: dimgray;
+    border-width: 5px;
+    border-style: double;
+    transform: translateY(25%);
+}
+
+#window {
+    height: 10em;
+    width: 10em;
+    border-radius: 15%;
+    background-color: darkslateblue;
+    transform: translateY(20%);
+}
+
+#window > p {
+    height: 50%;
+    width: 100%;
+    padding: 1em;
+    color: darkgray;
+    text-align: center;
+    transform: translateY(50%);
+}
