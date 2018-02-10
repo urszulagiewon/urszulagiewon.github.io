@@ -17,14 +17,23 @@ $(function () {
             var sprzedaz = kursyBitcoina.PLN.sell;
             var kupno = kursyBitcoina.PLN.buy;
             var symbol = kursyBitcoina.PLN.symbol;
-            var newBuy = $("#last-buy").val(sprzedaz);
-            var newSell = $("#last-sell").val(kupno);
 
             console.log("Kurs bitcoina dla Polski to: " + ostatniKurs + symbol + " sprzedaż " + sprzedaz + symbol + " kupno " + kupno + symbol);
 
             $("#sprawdz-kurs").on({
                 "click": function () {
-                    $("#kupno").html(kupno + " " + symbol);
+                    
+                    var stareKupno = document.createElement('div');
+                    stareKupno.id = "stare-kupno";
+                    
+                    var staraSprzedaz = document.createElement('div');
+                    staraSprzedaz.id = "stara-sprzedaz";
+                    
+                    staraSprzedaz = sprzedaz;
+                    stareKupno = kupno;
+                    
+                    console.log(staraSprzedaz, stareKupno);
+                   
                     if ($("#last-buy") < ostatniKurs) {
                         $("#kupno").append('<i class="fa fa-arrow-down fa-2x red" aria-hidden="true"></i>');
                     } else {
