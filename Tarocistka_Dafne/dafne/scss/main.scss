@@ -1,8 +1,54 @@
-$main-color: hotpink;
-$font-color: blue;
+@import "zmienne";
+
+@mixin section {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    background-color: $section-color;
+}
 
 body {
-    background-color: $main-color;
+    background-color: $background-color;
     font-size: 15px;
     color: $font-color;
+    font-family: $main-font;
+    box-sizing: border-box;
+}
+
+section#header {
+    @include section;
+    div#header-image {
+        background-image: url(../img/header.png);
+        width: 100%;
+        height: 75vh;
+        background-position: center;
+        background-size: cover;
+    }
+    div#header-text {
+        font-family: $header-font;
+        color: $warning;
+        height: 35vh;
+        width: 100%;
+        background-color: rgba(225, 225, 225, 0.7);
+        transform: translateY(50%);
+        h1 {
+            padding-top: 1em;
+            font-size: 6em;
+            font-weight: 400;
+        }
+        h3 {
+            display: inline;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            transition: 6s;
+            &:hover {
+                color: $golden;
+                font-size: 2em;
+                font-family: "Marck Script";
+            }
+            .fa-star {
+                -color: $golden;
+            }
+            
+        }
+    }
 }
