@@ -15,28 +15,26 @@ body {
 }
 
 section#header {
-    @include section;
     div#header-image {
         background-image: url(../img/header.png);
-        width: 100%;
-        height: 75vh;
+        width: auto;
+        height: 50vh;
         background-position: center;
         background-size: cover;
     }
     div#header-text {
         font-family: $header-font;
         color: $warning;
-        height: 35vh;
+        height: 20vh;
         width: 100%;
-        background-color: rgba(225, 225, 225, 0.7);
-        transform: translateY(50%);
         h1 {
+            display: block;
             padding-top: 1em;
             font-size: 6em;
             font-weight: 400;
         }
         h3 {
-            display: inline;
+            display: inline-block;
             padding-left: 0.5em;
             padding-right: 0.5em;
             transition: 6s;
@@ -46,9 +44,22 @@ section#header {
                 font-family: "Marck Script";
             }
             .fa-star {
-                -color: $golden;
+                color: $golden;
             }
             
+        }
+    }
+}
+
+nav {
+    height: 10vh;
+    padding: 1em;
+    background-color: $golden;
+    ul {
+        li {
+            list-style: none;
+            display: inline;
+            font-family: "Kavivanar", cursive;
         }
     }
 }
