@@ -153,11 +153,45 @@ section#prices {
     }
 }
 
+/* Inne*/
+
+section#other {
+    div.container {
+        background-color: $other-section;
+        padding: 1em;
+        figure {
+            img {
+                width: 15em;
+                height: 25em;
+                border-radius: 1em;
+            }
+        }
+        button {
+            height: 3em;
+            width: auto;
+            padding: 0.5em;
+            font-family: $header-font;
+            background-color: $warning;
+            color: $neutral;
+            border: 0;
+            border-radius: 1em;
+        }
+    }
+}
+
+/* Kontakt */
+
 section#contact {
     div.container {
         background-image: url(../img/contact.png);
         @include background;
+        color: $neutral;
     }
+
+    h5 {
+        padding-top: 1em;
+    }
+
     input {
         height: 2em;
         width: 50%;
@@ -179,7 +213,7 @@ section#contact {
     }
     input#message {
         border-radius: 1em;
-        width: 100%;
+        width: 50%;
         height: 5em;
     }
     input#submit {
@@ -196,17 +230,7 @@ section#contact {
             color: $golden;
         }
     }
-    div#dafne {
-        padding: 2em;
-        color: $neutral;
-        a {
-            width: 3em;
-            height: 3em;
-            padding: 0.2em;
-            border-radius: 50%;
-            color: $golden;
-            background-color: $neutral;
-            margin: 1em;
-        }
-    }
+
 }
+
+/* Footer */
