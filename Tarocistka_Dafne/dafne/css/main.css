@@ -1,10 +1,18 @@
+@charset "UTF-8";
 body {
-  background-color: #053B26;
-  font-size: 15px;
+  background: #103f1a;
+  background: -moz-linear-gradient(-45deg, #103f1a 0%, #002400 100%);
+  background: -webkit-linear-gradient(-45deg, #103f1a 0%, #002400 100%);
+  background: linear-gradient(135deg, #103f1a 0%, #002400 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#103f1a', endColorstr='#002400', GradientType=1);
+  font-size: 17px;
   color: #021C11;
   font-family: "Slabo 27px";
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto; }
 
+/* Header */
 section#header div#header-image {
   background-image: url(../img/header.png);
   width: auto;
@@ -14,11 +22,10 @@ section#header div#header-image {
 
 section#header div#header-text {
   font-family: "Marck Script";
-  color: #8A2129;
+  color: #fff;
   height: 20vh;
   width: 100%; }
   section#header div#header-text h1 {
-    display: block;
     padding-top: 1em;
     font-size: 6em;
     font-weight: 400; }
@@ -31,14 +38,62 @@ section#header div#header-text {
       color: #B0872C;
       font-size: 2em;
       font-family: "Marck Script"; }
-    section#header div#header-text h3 .fa-star {
+    section#header div#header-text h3 .fa {
       color: #B0872C; }
 
+/* Nawigacja */
 nav {
-  height: 10vh;
+  height: 5vh;
   padding: 1em;
-  background-color: #B0872C; }
-  nav ul li {
-    list-style: none;
-    display: inline;
-    font-family: "Kavivanar", cursive; }
+  background-color: #8A2129;
+  transition: 4s; }
+  nav:hover {
+    background-color: #B0872C; }
+  nav ul {
+    transform: translateY(-25%); }
+    nav ul li {
+      list-style: none;
+      display: inline;
+      font-family: "Kavivanar", cursive;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      font-size: 1.2em; }
+    nav ul a {
+      color: #B0872C;
+      text-decoration: none;
+      width: auto;
+      height: 2em;
+      transition: 2s; }
+      nav ul a:hover {
+        text-decoration: none;
+        color: #fff; }
+
+/* O mnie */
+section#about div {
+  background-color: #D9D9D7;
+  padding: 1em; }
+  section#about div div#tarot-card {
+    height: 35vh;
+    background-image: url(../img/tarot_01.jpg), url(../img/second.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    border-radius: 2em;
+    transition: 3s; }
+    section#about div div#tarot-card:hover {
+      background-image: url(../img/tarot-reading-1-1507749.jpg); }
+    section#about div div#tarot-card p {
+      width: 100%;
+      height: auto;
+      opacity: 0;
+      background-color: rgba(217, 253, 217, 0.7);
+      transition: 2s;
+      transform: translateY(25%);
+      padding: 1em; }
+      section#about div div#tarot-card p:hover {
+        opacity: 1; }
+
+/* Usługi */
+section#work div {
+  background-color: #C2CBA5;
+  padding: 2em; }
