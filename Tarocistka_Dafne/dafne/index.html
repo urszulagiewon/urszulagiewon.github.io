@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Dafne - Tarot, przewodnictwo duchowe</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../dafne/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
@@ -62,28 +62,28 @@
             <div class="row">
                 <div class="col-ms-4 col-md-4 col-xs-6 col-lg-4 text-center">
                     <figure class="card-image">
-                        <img src="img/cards.png">
+                        <img src="img/cards.png" id="tarot">
                     </figure>
-                    <h4 id="tarot">Tarot</h4>
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minima consectetur aliquam ad alias quibusdam maiores error dicta, quisquam odit mollitia sed blanditiis eos. Deleniti perspiciatis dignissimos voluptatibus ipsam inventore accusamus repellat, architecto dolorem beatae aspernatur, ipsum et doloribus at! Placeat quas non, incidunt nesciunt at dignissimos quo laudantium necessitatibus fugit, illum iste adipisci dolore repellat itaque odio deleniti ad sapiente magnam distinctio ratione ut blanditiis esse libero eos. Sed!</p>
-                </div>
-                <div class="col-ms-4 col-md-4 col-xs-6 col-lg-4 text-center">
-                    <figure class="card-image">
-                        <img src="img/stone.png">
-                    </figure>
-                    <h4 id="kamienie">Karty Kamieni</h4>
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minima consectetur aliquam ad alias quibusdam maiores error dicta, quisquam odit mollitia sed blanditiis eos. Deleniti perspiciatis dignissimos voluptatibus ipsam inventore accusamus repellat, architecto dolorem beatae aspernatur, ipsum et doloribus at! Placeat quas non, incidunt nesciunt at dignissimos quo laudantium necessitatibus fugit, illum iste adipisci dolore repellat itaque odio deleniti ad sapiente magnam distinctio ratione ut blanditiis esse libero eos. Sed!
+                    <h4>Tarot</h4>
+                    <p class="text-justify" id="about-tarot">
                     </p>
                 </div>
                 <div class="col-ms-4 col-md-4 col-xs-6 col-lg-4 text-center">
                     <figure class="card-image">
-                        <img src="img/gypsy.png">
+                        <img src="img/stone.png" id="kamienie">
                     </figure>
-                    <h4 id="gypsy">Karty cygańskie</h4>
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minima consectetur aliquam ad alias quibusdam maiores error dicta, quisquam odit mollitia sed blanditiis eos. Deleniti perspiciatis dignissimos voluptatibus ipsam inventore accusamus repellat, architecto dolorem beatae aspernatur, ipsum et doloribus at! Placeat quas non, incidunt nesciunt at dignissimos quo laudantium necessitatibus fugit, illum iste adipisci dolore repellat itaque odio deleniti ad sapiente magnam distinctio ratione ut blanditiis esse libero eos. Sed!
+                    <h4>Karty Kamieni</h4>
+                    <p class="text-justify" id="about-stones">
+ 
+                    </p>
+                </div>
+                <div class="col-ms-4 col-md-4 col-xs-6 col-lg-4 text-center">
+                    <figure class="card-image">
+                        <img src="img/gypsy.png" id="gypsy">
+                    </figure>
+                    <h4>Karty cygańskie</h4>
+                    <p class="text-justify" id="about-gypsy">
+            
                     </p>
                 </div>
             </div>
@@ -128,8 +128,8 @@
                     </figure>
                     <button id="check">Sprawdź swoją kartę</button>
                 </div>
-                <div class="col-xs-6 col-ms-6 col-md-8 col-lg-8 text-center" id="your card">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum facere ex iusto itaque eligendi modi saepe totam hic, nesciunt, omnis, praesentium voluptates provident! Non doloremque fugit dicta sint, amet at nemo saepe, quasi nisi. Reprehenderit quasi ullam animi nam est reiciendis aliquid quo, provident doloremque.
+                <div class="col-xs-6 col-ms-6 col-md-8 col-lg-8 text-center" id="your-card">
+
                 </div>
             </div>
         </div>
@@ -167,7 +167,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="JS/karta.js"></script>
     <script src="JS/main.js"></script>
+
 </body>
 
 </html>

@@ -6,7 +6,8 @@
 
 body {
 
-    background-color: $background-color;
+    background-image: url(../img/bckgrnd.png);
+    background-repeat: repeat;
     font-size: 17px;
     color: $font-color;
     font-family: $main-font;
@@ -151,6 +152,9 @@ section#prices {
         padding: 1em;
         background-color: $section-color;
     }
+    h4 {
+        cursor: pointer;
+    }
 }
 
 /* Inne*/
@@ -166,6 +170,13 @@ section#other {
                 border-radius: 1em;
             }
         }
+        
+        div#your-card {
+            padding: 2em;
+            height: 10em;
+            transform: translateY(50%);
+        }
+        
         button {
             height: 3em;
             width: auto;

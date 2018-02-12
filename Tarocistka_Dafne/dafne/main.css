@@ -1,7 +1,6 @@
 @charset "UTF-8";
 body {
-  background-image: url(../img/bckgrnd.png);
-  background-repeat: repeat;
+  background-color: #000a0a;
   font-size: 17px;
   color: #021C11;
   font-family: "Slabo 27px";
@@ -112,9 +111,6 @@ section#prices div {
   padding: 1em;
   background-color: #D9D9D7; }
 
-section#prices h4 {
-  cursor: pointer; }
-
 /* Inne*/
 section#other div.container {
   background-color: #C2CBA5;
@@ -123,10 +119,6 @@ section#other div.container {
     width: 15em;
     height: 25em;
     border-radius: 1em; }
-  section#other div.container div#your-card {
-    padding: 2em;
-    height: 10em;
-    transform: translateY(50%); }
   section#other div.container button {
     height: 3em;
     width: auto;
